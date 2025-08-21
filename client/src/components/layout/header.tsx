@@ -37,13 +37,13 @@ export function Header() {
           <div className="hidden md:flex space-x-8">
             {navigation.map((item) => (
               <Link key={item.name} href={item.href}>
-                <a className={`transition-colors ${
+                <span className={`transition-colors cursor-pointer ${
                   isActiveLink(item.href)
                     ? 'text-auto-blue font-semibold'
                     : 'text-auto-gray hover:text-auto-blue'
                 }`}>
                   {item.name}
-                </a>
+                </span>
               </Link>
             ))}
           </div>
@@ -70,8 +70,8 @@ export function Header() {
           <div className="md:hidden py-4 space-y-4">
             {navigation.map((item) => (
               <Link key={item.name} href={item.href}>
-                <a 
-                  className={`block transition-colors ${
+                <span 
+                  className={`block transition-colors cursor-pointer ${
                     isActiveLink(item.href)
                       ? 'text-auto-blue font-semibold'
                       : 'text-auto-gray hover:text-auto-blue'
@@ -79,7 +79,7 @@ export function Header() {
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {item.name}
-                </a>
+                </span>
               </Link>
             ))}
           </div>
