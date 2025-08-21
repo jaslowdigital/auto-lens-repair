@@ -42,48 +42,48 @@ export default function HomePage() {
       />
 
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6">
+      <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-12 sm:py-20 w-full overflow-x-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-12 items-center w-full">
+            <div className="w-full">
+              <h1 className="text-2xl sm:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
                 Transform Your <span className="text-auto-amber">Foggy Headlights</span> to Crystal Clear
               </h1>
               <p className="text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 text-blue-100">
                 Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. 
                 Mobile service available - we come to you or convenient drop-off options.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-bold hover:bg-yellow-400">
-                  <a href="tel:445-200-7542">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full">
+                <Button asChild className="bg-auto-amber text-auto-blue px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-bold hover:bg-yellow-400 w-full sm:w-auto">
+                  <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
-                    Call (445) 200-7542
+                    <span className="whitespace-nowrap">Call (445) 200-7542</span>
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 hover:bg-white hover:text-auto-blue">
-                  <Link href="/gallery">
+                <Button asChild variant="outline" className="border-2 border-white text-white px-4 sm:px-8 py-3 sm:py-4 hover:bg-white hover:text-auto-blue w-full sm:w-auto">
+                  <Link href="/gallery" className="flex items-center justify-center">
                     <span className="flex items-center">
                       View Results <ArrowRight className="ml-2 h-4 sm:h-5 w-4 sm:w-5" />
                     </span>
                   </Link>
                 </Button>
               </div>
-              <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
-                <div className="flex items-center">
-                  <Shield className="text-auto-amber text-xl sm:text-2xl mr-2" />
+              <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8 w-full">
+                <div className="flex items-center min-w-0">
+                  <Shield className="text-auto-amber text-lg sm:text-2xl mr-2 flex-shrink-0" />
                   <span className="font-semibold text-sm sm:text-base">1 Year Warranty</span>
                 </div>
-                <div className="flex items-center">
-                  <MapPin className="text-auto-amber text-xl sm:text-2xl mr-2" />
+                <div className="flex items-center min-w-0">
+                  <MapPin className="text-auto-amber text-lg sm:text-2xl mr-2 flex-shrink-0" />
                   <span className="font-semibold text-sm sm:text-base">Mobile Service</span>
                 </div>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative w-full mt-8 lg:mt-0">
               <img 
                 src="https://pixabay.com/get/g69008b70156dbb078a51c276038f61d0322a422cf8856ed6c6ce77db0f370b7cc780c51e9dad95e366691527a9d67b47f63f07353e7726a707bb43f4defde696_1280.jpg" 
                 alt="Professional automotive technician restoring headlights" 
-                className="rounded-xl shadow-2xl w-full h-auto"
+                className="rounded-xl shadow-2xl w-full h-auto max-w-full"
               />
             </div>
           </div>
