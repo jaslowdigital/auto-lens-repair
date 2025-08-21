@@ -24,9 +24,9 @@ export function Header() {
   };
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+    <header className="bg-white shadow-lg sticky top-0 z-50 w-full overflow-x-hidden">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="flex justify-between items-center py-4 w-full">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
               <Car className="text-auto-blue text-xl sm:text-2xl mr-2 sm:mr-3" />

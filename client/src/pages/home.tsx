@@ -33,7 +33,7 @@ export default function HomePage() {
   ];
 
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Auto Lens Repair - Professional Headlight Restoration | Montgomery County, Bucks County, Philadelphia PA"
         description="Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. Transform foggy, yellow headlights to crystal clear. Mobile service available. Call 445-200-7542"
@@ -68,14 +68,14 @@ export default function HomePage() {
                   </Link>
                 </Button>
               </div>
-              <div className="mt-8 flex items-center space-x-8">
+              <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
                 <div className="flex items-center">
-                  <Shield className="text-auto-amber text-2xl mr-2" />
-                  <span className="font-semibold">1 Year Warranty</span>
+                  <Shield className="text-auto-amber text-xl sm:text-2xl mr-2" />
+                  <span className="font-semibold text-sm sm:text-base">1 Year Warranty</span>
                 </div>
                 <div className="flex items-center">
-                  <MapPin className="text-auto-amber text-2xl mr-2" />
-                  <span className="font-semibold">Mobile Service</span>
+                  <MapPin className="text-auto-amber text-xl sm:text-2xl mr-2" />
+                  <span className="font-semibold text-sm sm:text-base">Mobile Service</span>
                 </div>
               </div>
             </div>

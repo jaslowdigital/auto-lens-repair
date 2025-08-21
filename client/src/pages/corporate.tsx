@@ -5,7 +5,7 @@ import { Phone, DollarSign, Clock, Handshake, Car, Zap, Truck, Building } from '
 
 export default function CorporatePage() {
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Corporate & Fleet Headlight Restoration Services | Auto Lens Repair"
         description="Professional headlight restoration for car dealerships, fleet managers, and automotive businesses. Volume discounts available. Call 445-200-7542"

@@ -2,8 +2,8 @@ import { Car, Phone, Clock, MapPin, Shield } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="bg-auto-gray text-white py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="bg-auto-gray text-white py-12 w-full overflow-x-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">

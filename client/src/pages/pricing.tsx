@@ -5,7 +5,7 @@ import { Phone, Shield, CheckCircle, Clock, DollarSign, Wrench } from 'lucide-re
 
 export default function PricingPage() {
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Headlight Restoration Pricing - Call for Quote | Auto Lens Repair"
         description="Custom headlight restoration pricing for every vehicle. Call 445-200-7542 for transparent, upfront pricing. 1-year warranty included on all services."

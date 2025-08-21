@@ -5,7 +5,7 @@ import { Phone, Clock, Shield, Home, Store, Building } from 'lucide-react';
 
 export default function ContactPage() {
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Contact Auto Lens Repair - Call 445-200-7542 | Headlight Restoration"
         description="Contact Auto Lens Repair for professional headlight restoration. Call 445-200-7542 for mobile or drop-off service in Montgomery County, Bucks County, Philadelphia PA."

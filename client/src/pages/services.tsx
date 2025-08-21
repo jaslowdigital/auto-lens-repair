@@ -5,7 +5,7 @@ import { Phone, Shield, Clock, CheckCircle, Home, Store, Building } from 'lucide
 
 export default function ServicesPage() {
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Professional Headlight Restoration Services | Auto Lens Repair"
         description="Mobile and drop-off headlight restoration services. Professional grade materials, 1-year warranty. Serving Montgomery County, Bucks County, Philadelphia PA."

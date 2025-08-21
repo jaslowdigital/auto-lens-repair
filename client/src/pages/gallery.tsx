@@ -56,7 +56,7 @@ export default function GalleryPage() {
   ];
 
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Before & After Gallery - Headlight Restoration Results | Auto Lens Repair"
         description="See dramatic before and after results of our professional headlight restoration service. Transform foggy, yellow headlights to crystal clear diamond clarity."

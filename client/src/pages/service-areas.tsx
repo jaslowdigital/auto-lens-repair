@@ -36,7 +36,7 @@ export default function ServiceAreasPage() {
   ];
 
   return (
-    <div className="font-inter">
+    <div className="font-inter w-full overflow-x-hidden">
       <SEOHead 
         title="Service Areas - Montgomery County, Bucks County, Philadelphia PA | Auto Lens Repair"
         description="Professional headlight restoration services throughout Montgomery County, Bucks County, and Philadelphia PA. Mobile service available in all areas. Call 445-200-7542"
