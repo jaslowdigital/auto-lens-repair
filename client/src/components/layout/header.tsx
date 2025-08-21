@@ -26,7 +26,8 @@ export function Header() {
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50 w-full overflow-x-hidden">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="flex justify-between items-center py-4 w-full">
+        {/* Desktop Layout */}
+        <div className="hidden md:flex justify-between items-center py-4 w-full">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
               <Car className="text-auto-blue text-xl sm:text-2xl mr-2 sm:mr-3" />
@@ -34,7 +35,7 @@ export function Header() {
             </div>
           </Link>
           
-          <div className="hidden md:flex space-x-8">
+          <div className="flex space-x-8">
             {navigation.map((item) => (
               <Link key={item.name} href={item.href}>
                 <span className={`transition-colors cursor-pointer ${
@@ -48,22 +49,37 @@ export function Header() {
             ))}
           </div>
 
-          <div className="flex items-center space-x-4">
-            <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 text-sm sm:text-base px-3 sm:px-4 py-2">
-              <a href="tel:445-200-7542">
-                <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
-                <span className="hidden sm:inline">Call Now</span>
-                <span className="sm:hidden">Call</span>
-              </a>
-            </Button>
-            <Button
-              variant="ghost"
-              className="md:hidden text-auto-gray"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </Button>
-          </div>
+          <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 text-sm sm:text-base px-3 sm:px-4 py-2">
+            <a href="tel:445-200-7542">
+              <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+              Call Now
+            </a>
+          </Button>
+        </div>
+
+        {/* Mobile Layout */}
+        <div className="flex md:hidden justify-between items-center py-4 w-full">
+          <Button
+            variant="ghost"
+            className="text-auto-gray p-2"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </Button>
+          
+          <Link href="/" className="flex-1 flex justify-center">
+            <div className="flex items-center cursor-pointer">
+              <Car className="text-auto-blue text-xl mr-2" />
+              <span className="text-lg font-bold text-auto-blue">AutoLensRepair.com</span>
+            </div>
+          </Link>
+
+          <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 text-sm px-3 py-2">
+            <a href="tel:445-200-7542">
+              <Phone className="w-3 h-3 mr-1" />
+              Call
+            </a>
+          </Button>
         </div>
         
         {/* Mobile menu */}
