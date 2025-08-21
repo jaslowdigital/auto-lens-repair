@@ -57,21 +57,10 @@ export function Header() {
           </Button>
         </div>
 
-        {/* Mobile Layout - Hamburger Left, Logo Center, Call Right */}
+        {/* Mobile Layout - Logo Left, Call Center, Hamburger Right */}
         <div className="flex md:hidden items-center py-4 w-full">
-          {/* Hamburger Menu - Left Side */}
+          {/* Logo - Left Side */}
           <div className="flex-shrink-0">
-            <Button
-              variant="ghost"
-              className="text-auto-gray p-2 mr-2"
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            >
-              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </Button>
-          </div>
-          
-          {/* Logo - Center */}
-          <div className="flex-1 flex justify-center">
             <Link href="/">
               <div className="flex items-center cursor-pointer">
                 <Car className="text-auto-blue text-xl mr-2" />
@@ -79,14 +68,25 @@ export function Header() {
               </div>
             </Link>
           </div>
-
-          {/* Call Button - Right Side */}
-          <div className="flex-shrink-0">
+          
+          {/* Call Button - Center */}
+          <div className="flex-1 flex justify-center">
             <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 text-sm px-3 py-2">
               <a href="tel:445-200-7542">
                 <Phone className="w-3 h-3 mr-1" />
                 Call
               </a>
+            </Button>
+          </div>
+
+          {/* Hamburger Menu - Right Side */}
+          <div className="flex-shrink-0">
+            <Button
+              variant="ghost"
+              className="text-auto-gray p-2 ml-2"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
           </div>
         </div>
