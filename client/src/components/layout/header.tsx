@@ -49,9 +49,9 @@ export function Header() {
             ))}
           </div>
 
-          <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 text-sm sm:text-base px-3 sm:px-4 py-2">
-            <a href="tel:445-200-7542">
-              <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" />
+          <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 text-base px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg">
+            <a href="tel:445-200-7542" className="flex items-center justify-center">
+              <Phone className="w-4 h-4 mr-2" />
               Call Now
             </a>
           </Button>
@@ -71,8 +71,8 @@ export function Header() {
           
           {/* Call Button - Center */}
           <div className="flex-1 flex justify-center">
-            <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 text-sm px-3 py-2">
-              <a href="tel:445-200-7542">
+            <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 text-sm px-4 py-2 rounded-lg font-semibold shadow-md">
+              <a href="tel:445-200-7542" className="flex items-center justify-center">
                 <Phone className="w-3 h-3 mr-1" />
                 Call
               </a>
@@ -83,7 +83,7 @@ export function Header() {
           <div className="flex-shrink-0">
             <Button
               variant="ghost"
-              className="text-auto-gray p-2 ml-2"
+              className="text-auto-gray hover:text-auto-blue hover:bg-gray-100 transition-all duration-200 p-2 ml-2 rounded-lg"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}

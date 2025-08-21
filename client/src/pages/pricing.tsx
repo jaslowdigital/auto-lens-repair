@@ -91,10 +91,10 @@ export default function PricingPage() {
               </div>
 
               <div className="text-center">
-                <Button asChild className="bg-auto-amber text-auto-blue px-12 py-4 text-xl font-bold hover:bg-yellow-400">
-                  <a href="tel:445-200-7542">
-                    <Phone className="mr-3 h-6 w-6" />
-                    Call Now for Pricing: (445) 200-7542
+                <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-12 py-4 text-base sm:text-xl font-bold hover:bg-yellow-400 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
+                  <a href="tel:445-200-7542" className="flex items-center justify-center">
+                    <Phone className="mr-3 h-5 sm:h-6 w-5 sm:w-6" />
+                    <span className="text-center">Call Now for Pricing: (445) 200-7542</span>
                   </a>
                 </Button>
                 <p className="text-auto-gray mt-4">Free estimates available • No obligation quotes</p>

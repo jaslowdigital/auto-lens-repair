@@ -53,17 +53,17 @@ export default function HomePage() {
                 Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. 
                 Mobile service available - we come to you or convenient drop-off options.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full">
-                <Button asChild className="bg-auto-amber text-auto-blue px-4 sm:px-8 py-3 sm:py-4 text-sm sm:text-lg font-bold hover:bg-yellow-400 w-full sm:w-auto">
+              <div className="flex flex-col sm:flex-row gap-4 w-full">
+                <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-8 py-4 text-base sm:text-lg font-bold hover:bg-yellow-400 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
-                    <Phone className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
+                    <Phone className="mr-2 h-5 w-5" />
                     <span className="whitespace-nowrap">Call (445) 200-7542</span>
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-2 border-white text-white px-4 sm:px-8 py-3 sm:py-4 hover:bg-white hover:text-auto-blue w-full sm:w-auto">
+                <Button asChild variant="outline" className="border-2 border-white text-white px-6 sm:px-8 py-4 text-base sm:text-lg font-semibold hover:bg-white hover:text-auto-blue transition-all duration-200 rounded-lg w-full sm:w-auto">
                   <Link href="/gallery" className="flex items-center justify-center">
                     <span className="flex items-center">
-                      View Results <ArrowRight className="ml-2 h-4 sm:h-5 w-4 sm:w-5" />
+                      View Results <ArrowRight className="ml-2 h-5 w-5" />
                     </span>
                   </Link>
                 </Button>
@@ -111,8 +111,11 @@ export default function HomePage() {
                   We come to your location - home, office, or anywhere convenient for you. 
                   No need to leave your vehicle anywhere.
                 </p>
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800">
-                  <a href="tel:445-200-7542">Schedule Mobile Service</a>
+                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                  <a href="tel:445-200-7542" className="flex items-center justify-center">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Schedule Mobile Service
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -127,8 +130,11 @@ export default function HomePage() {
                   Prefer to drop off your vehicle? Our convenient location provides 
                   professional service while you wait or leave your car.
                 </p>
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800">
-                  <a href="tel:445-200-7542">Call for Location</a>
+                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                  <a href="tel:445-200-7542" className="flex items-center justify-center">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Call for Location
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -143,8 +149,11 @@ export default function HomePage() {
                   Fleet services for car dealerships, golf cart dealers, 
                   and any business with vehicle inventory.
                 </p>
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800">
-                  <a href="tel:445-200-7542">Corporate Pricing</a>
+                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                  <a href="tel:445-200-7542" className="flex items-center justify-center">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Corporate Pricing
+                  </a>
                 </Button>
               </CardContent>
             </Card>
