@@ -16,8 +16,8 @@ export default function PricingPage() {
       <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Pricing Information</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Pricing Information</h1>
+            <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-3xl mx-auto">
               Every vehicle is different. Call now for a personalized quote based on your specific needs 
               and headlight condition.
             </p>
@@ -30,9 +30,9 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="bg-white shadow-xl max-w-4xl mx-auto">
             <CardContent className="p-8 md:p-12">
-              <div className="text-center mb-8">
-                <h2 className="text-3xl font-bold text-auto-blue mb-4">Custom Pricing for Every Vehicle</h2>
-                <p className="text-lg text-auto-gray">
+              <div className="text-center mb-6 sm:mb-8">
+                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-auto-blue mb-3 sm:mb-4">Custom Pricing for Every Vehicle</h2>
+                <p className="text-base sm:text-lg text-auto-gray">
                   Pricing varies based on vehicle type, headlight condition, and service location. 
                   We provide transparent, upfront pricing with no hidden fees.
                 </p>
@@ -40,8 +40,8 @@ export default function PricingPage() {
 
               <div className="grid md:grid-cols-2 gap-8 mb-8">
                 <div className="bg-auto-light p-6 rounded-lg">
-                  <h3 className="text-xl font-bold text-auto-blue mb-3 flex items-center">
-                    <DollarSign className="mr-2 h-6 w-6" />
+                  <h3 className="text-base sm:text-lg lg:text-xl font-bold text-auto-blue mb-2 sm:mb-3 flex items-center">
+                    <DollarSign className="mr-2 h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6" />
                     Factors Affecting Price:
                   </h3>
                   <ul className="text-auto-gray space-y-2">

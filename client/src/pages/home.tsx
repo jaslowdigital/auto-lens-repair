@@ -46,25 +46,25 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6">
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold mb-4 sm:mb-6">
                 Transform Your <span className="text-auto-amber">Foggy Headlights</span> to Crystal Clear
               </h1>
-              <p className="text-xl mb-8 text-blue-100">
+              <p className="text-base sm:text-lg lg:text-xl mb-6 sm:mb-8 text-blue-100">
                 Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. 
                 Mobile service available - we come to you or convenient drop-off options.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild className="bg-auto-amber text-auto-blue px-8 py-4 text-lg font-bold hover:bg-yellow-400">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg font-bold hover:bg-yellow-400">
                   <a href="tel:445-200-7542">
-                    <Phone className="mr-2 h-5 w-5" />
+                    <Phone className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
                     Call (445) 200-7542
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-2 border-white text-white px-8 py-4 hover:bg-white hover:text-auto-blue">
+                <Button asChild variant="outline" className="border-2 border-white text-white px-6 sm:px-8 py-3 sm:py-4 hover:bg-white hover:text-auto-blue">
                   <Link href="/gallery">
-                    <a className="flex items-center">
-                      View Results <ArrowRight className="ml-2 h-5 w-5" />
-                    </a>
+                    <span className="flex items-center">
+                      View Results <ArrowRight className="ml-2 h-4 sm:h-5 w-4 sm:w-5" />
+                    </span>
                   </Link>
                 </Button>
               </div>
@@ -93,9 +93,9 @@ export default function HomePage() {
       {/* Services Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-auto-blue mb-4">Our Professional Services</h2>
-            <p className="text-xl text-auto-gray max-w-3xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-auto-blue mb-3 sm:mb-4">Our Professional Services</h2>
+            <p className="text-base sm:text-lg lg:text-xl text-auto-gray max-w-3xl mx-auto">
               Restore your vehicle's headlights to like-new condition with our professional restoration process
             </p>
           </div>
@@ -106,8 +106,8 @@ export default function HomePage() {
                 <div className="bg-auto-blue text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Home className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-auto-blue mb-4">Mobile Service</h3>
-                <p className="text-auto-gray mb-6">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue mb-3 sm:mb-4">Mobile Service</h3>
+                <p className="text-sm sm:text-base text-auto-gray mb-4 sm:mb-6">
                   We come to your location - home, office, or anywhere convenient for you. 
                   No need to leave your vehicle anywhere.
                 </p>
@@ -122,8 +122,8 @@ export default function HomePage() {
                 <div className="bg-auto-blue text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Store className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-auto-blue mb-4">Drop-Off Service</h3>
-                <p className="text-auto-gray mb-6">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue mb-3 sm:mb-4">Drop-Off Service</h3>
+                <p className="text-sm sm:text-base text-auto-gray mb-4 sm:mb-6">
                   Prefer to drop off your vehicle? Our convenient location provides 
                   professional service while you wait or leave your car.
                 </p>
@@ -138,8 +138,8 @@ export default function HomePage() {
                 <div className="bg-auto-blue text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Building className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold text-auto-blue mb-4">Corporate Services</h3>
-                <p className="text-auto-gray mb-6">
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue mb-3 sm:mb-4">Corporate Services</h3>
+                <p className="text-sm sm:text-base text-auto-gray mb-4 sm:mb-6">
                   Fleet services for car dealerships, golf cart dealers, 
                   and any business with vehicle inventory.
                 </p>
@@ -155,9 +155,9 @@ export default function HomePage() {
       {/* Before/After Gallery Preview */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-auto-blue mb-4">Dramatic Before & After Results</h2>
-            <p className="text-xl text-auto-gray max-w-3xl mx-auto">
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-auto-blue mb-3 sm:mb-4">Dramatic Before & After Results</h2>
+            <p className="text-base sm:text-lg lg:text-xl text-auto-gray max-w-3xl mx-auto">
               See the incredible transformation from foggy, yellowed headlights to crystal clear, diamond-bright clarity
             </p>
           </div>

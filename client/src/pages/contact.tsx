@@ -16,8 +16,8 @@ export default function ContactPage() {
       <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Ready to Restore Your Headlights?</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Ready to Restore Your Headlights?</h1>
+            <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-3xl mx-auto">
               Contact us today for a free estimate. Mobile service available throughout Montgomery County, 
               Bucks County, and Philadelphia.
             </p>
@@ -30,18 +30,18 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-4xl font-bold text-auto-blue mb-8">Get Your Free Estimate</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-auto-blue mb-6 sm:mb-8">Get Your Free Estimate</h2>
               <div className="space-y-8">
                 <div className="flex items-center">
                   <div className="bg-auto-amber text-auto-blue w-16 h-16 rounded-full flex items-center justify-center mr-6">
                     <Phone className="h-8 w-8" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-2xl text-auto-blue">Call Now</h3>
-                    <a href="tel:445-200-7542" className="text-auto-amber text-3xl font-bold hover:text-yellow-500 transition-colors">
+                    <h3 className="font-bold text-lg sm:text-xl lg:text-2xl text-auto-blue">Call Now</h3>
+                    <a href="tel:445-200-7542" className="text-auto-amber text-xl sm:text-2xl lg:text-3xl font-bold hover:text-yellow-500 transition-colors">
                       (445) 200-7542
                     </a>
-                    <p className="text-auto-gray mt-1">Free estimates • No obligation quotes</p>
+                    <p className="text-sm sm:text-base text-auto-gray mt-1">Free estimates • No obligation quotes</p>
                   </div>
                 </div>
 
@@ -50,7 +50,7 @@ export default function ContactPage() {
                     <Clock className="h-8 w-8" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl text-auto-blue">Business Hours</h3>
+                    <h3 className="font-bold text-base sm:text-lg lg:text-xl text-auto-blue">Business Hours</h3>
                     <div className="text-auto-gray space-y-1">
                       <p>Monday - Saturday: 8:00 AM - 6:00 PM</p>
                       <p>Sunday: By Appointment</p>

@@ -16,8 +16,8 @@ export default function CorporatePage() {
       <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Corporate & Fleet Services</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Corporate & Fleet Services</h1>
+            <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-3xl mx-auto">
               Professional headlight restoration services for dealerships, fleet managers, and automotive businesses. 
               Volume discounts and flexible scheduling available.
             </p>
@@ -30,15 +30,15 @@ export default function CorporatePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-4xl font-bold text-auto-blue mb-6">Why Dealerships Choose Us</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-auto-blue mb-4 sm:mb-6">Why Dealerships Choose Us</h2>
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-auto-blue text-white w-12 h-12 rounded-full flex items-center justify-center mr-4 mt-1">
                     <DollarSign className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl mb-2">Cost-Effective Solution</h3>
-                    <p className="text-auto-gray">
+                    <h3 className="font-bold text-base sm:text-lg lg:text-xl mb-2">Cost-Effective Solution</h3>
+                    <p className="text-sm sm:text-base text-auto-gray">
                       Restore headlights instead of replacing them - save hundreds per vehicle. 
                       Professional restoration at a fraction of replacement cost.
                     </p>
@@ -50,8 +50,8 @@ export default function CorporatePage() {
                     <Clock className="h-6 w-6" />
                   </div>
                   <div>
-                    <h3 className="font-bold text-xl mb-2">Quick Turnaround</h3>
-                    <p className="text-auto-gray">
+                    <h3 className="font-bold text-base sm:text-lg lg:text-xl mb-2">Quick Turnaround</h3>
+                    <p className="text-sm sm:text-base text-auto-gray">
                       Fast service to keep your inventory moving and lot presentation perfect. 
                       Most vehicles completed same day.
                     </p>

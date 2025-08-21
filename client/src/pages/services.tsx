@@ -16,8 +16,8 @@ export default function ServicesPage() {
       <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-6">Our Professional Services</h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6">Our Professional Services</h1>
+            <p className="text-base sm:text-lg lg:text-xl text-blue-100 max-w-3xl mx-auto">
               Comprehensive headlight restoration services designed to meet your needs. 
               From mobile service to corporate fleet solutions.
             </p>
@@ -34,8 +34,8 @@ export default function ServicesPage() {
                 <div className="bg-auto-blue text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Home className="h-10 w-10" />
                 </div>
-                <h2 className="text-3xl font-bold text-auto-blue mb-4">Mobile Service</h2>
-                <p className="text-auto-gray mb-6">
+                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-auto-blue mb-3 sm:mb-4">Mobile Service</h2>
+                <p className="text-sm sm:text-base text-auto-gray mb-4 sm:mb-6">
                   Our most popular service! We bring the shop to you. Perfect for busy professionals 
                   and families who can't spare the time to drop off their vehicle.
                 </p>
@@ -76,14 +76,14 @@ export default function ServicesPage() {
                 <div className="bg-auto-blue text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Store className="h-10 w-10" />
                 </div>
-                <h2 className="text-3xl font-bold text-auto-blue mb-4">Drop-Off Service</h2>
-                <p className="text-auto-gray mb-6">
+                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-auto-blue mb-3 sm:mb-4">Drop-Off Service</h2>
+                <p className="text-sm sm:text-base text-auto-gray mb-4 sm:mb-6">
                   Convenient drop-off location with professional service. Perfect if you're 
                   already running errands or prefer the traditional service approach.
                 </p>
                 
-                <div className="text-left mb-6">
-                  <h3 className="font-bold text-lg mb-3 text-auto-blue">What's Included:</h3>
+                <div className="text-left mb-4 sm:mb-6">
+                  <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-auto-blue">What's Included:</h3>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <CheckCircle className="text-green-600 mr-2 h-4 w-4" />
@@ -118,14 +118,14 @@ export default function ServicesPage() {
                 <div className="bg-auto-blue text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Building className="h-10 w-10" />
                 </div>
-                <h2 className="text-3xl font-bold text-auto-blue mb-4">Corporate Services</h2>
-                <p className="text-auto-gray mb-6">
+                <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-auto-blue mb-3 sm:mb-4">Corporate Services</h2>
+                <p className="text-sm sm:text-base text-auto-gray mb-4 sm:mb-6">
                   Volume services for dealerships, fleet managers, and businesses with 
                   multiple vehicles. Special pricing and scheduling available.
                 </p>
                 
-                <div className="text-left mb-6">
-                  <h3 className="font-bold text-lg mb-3 text-auto-blue">What's Included:</h3>
+                <div className="text-left mb-4 sm:mb-6">
+                  <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-auto-blue">What's Included:</h3>
                   <ul className="space-y-2">
                     <li className="flex items-center">
                       <CheckCircle className="text-green-600 mr-2 h-4 w-4" />
