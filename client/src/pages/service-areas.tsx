@@ -1,3 +1,4 @@
+import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import SEOHead from '@/components/seo/seo-head';
@@ -85,7 +86,80 @@ export default function ServiceAreasPage() {
                     </div>
                   </div>
                   
-                  <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 w-full">
+                  <div className="space-y-2 mb-4">
+                    {area.county === "Montgomery County" && (
+                      <>
+                        <Link href="/montgomery-county">
+                          <Button variant="outline" size="sm" className="w-full text-xs border-auto-blue text-auto-blue hover:bg-auto-blue hover:text-white">
+                            View {area.county} Details
+                          </Button>
+                        </Link>
+                        <div className="grid grid-cols-2 gap-1">
+                          <Link href="/norristown">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Norristown
+                            </Button>
+                          </Link>
+                          <Link href="/king-of-prussia">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              King of Prussia
+                            </Button>
+                          </Link>
+                          <Link href="/pottstown">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Pottstown
+                            </Button>
+                          </Link>
+                        </div>
+                      </>
+                    )}
+                    
+                    {area.county === "Bucks County" && (
+                      <>
+                        <Link href="/bucks-county">
+                          <Button variant="outline" size="sm" className="w-full text-xs border-auto-blue text-auto-blue hover:bg-auto-blue hover:text-white">
+                            View {area.county} Details
+                          </Button>
+                        </Link>
+                        <div className="grid grid-cols-2 gap-1">
+                          <Link href="/doylestown">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Doylestown
+                            </Button>
+                          </Link>
+                          <Link href="/bensalem">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Bensalem
+                            </Button>
+                          </Link>
+                          <Link href="/new-hope">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              New Hope
+                            </Button>
+                          </Link>
+                        </div>
+                      </>
+                    )}
+                    
+                    {area.county === "Philadelphia" && (
+                      <>
+                        <Link href="/philadelphia-county">
+                          <Button variant="outline" size="sm" className="w-full text-xs border-auto-blue text-auto-blue hover:bg-auto-blue hover:text-white">
+                            View {area.county} Details
+                          </Button>
+                        </Link>
+                        <div className="grid grid-cols-1 gap-1">
+                          <Link href="/center-city">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Center City
+                            </Button>
+                          </Link>
+                        </div>
+                      </>
+                    )}
+                  </div>
+                  
+                  <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 w-full">
                     <a href="tel:445-200-7542">
                       <Phone className="mr-2 h-4 w-4" />
                       Call for Service

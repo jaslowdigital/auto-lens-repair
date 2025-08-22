@@ -14,6 +14,20 @@ import Corporate from "@/pages/corporate";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
 
+// County Pages
+import { MontgomeryCountyPage } from "@/pages/montgomery-county";
+import { BucksCountyPage } from "@/pages/bucks-county";
+import { PhiladelphiaCountyPage } from "@/pages/philadelphia-county";
+
+// Town Pages
+import { NorristownPage } from "@/pages/towns/norristown";
+import { KingOfPrussiaPage } from "@/pages/towns/king-of-prussia";
+import { DoylestownPage } from "@/pages/towns/doylestown";
+import { CenterCityPage } from "@/pages/towns/center-city";
+import { BensalemPage } from "@/pages/towns/bensalem";
+import { PottstownPage } from "@/pages/towns/pottstown";
+import { NewHopePage } from "@/pages/towns/new-hope";
+
 function Router() {
   return (
     <Switch>
@@ -24,6 +38,21 @@ function Router() {
       <Route path="/pricing" component={Pricing} />
       <Route path="/corporate" component={Corporate} />
       <Route path="/contact" component={Contact} />
+      
+      {/* County Pages */}
+      <Route path="/montgomery-county" component={MontgomeryCountyPage} />
+      <Route path="/bucks-county" component={BucksCountyPage} />
+      <Route path="/philadelphia-county" component={PhiladelphiaCountyPage} />
+      
+      {/* Town Pages */}
+      <Route path="/norristown" component={NorristownPage} />
+      <Route path="/king-of-prussia" component={KingOfPrussiaPage} />
+      <Route path="/doylestown" component={DoylestownPage} />
+      <Route path="/center-city" component={CenterCityPage} />
+      <Route path="/bensalem" component={BensalemPage} />
+      <Route path="/pottstown" component={PottstownPage} />
+      <Route path="/new-hope" component={NewHopePage} />
+      
       <Route component={NotFound} />
     </Switch>
   );
