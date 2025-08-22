@@ -39,7 +39,9 @@ export function PhiladelphiaCountyPage() {
         title="Philadelphia PA Headlight Restoration | Auto Lens Repair"
         description="Professional headlight restoration services throughout Philadelphia PA including Center City, South Philly, West Philadelphia, Fishtown, and all neighborhoods. Mobile service available. Call 445-200-7542"
         keywords="headlight restoration Philadelphia, Center City headlight repair, South Philadelphia auto service, West Philadelphia car detailing, Fishtown headlight cleaning"
-        canonical="https://autolensrepair.com/philadelphia-county"
+        canonical="https://workspace--njaslow.replit.app/philadelphia-county"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/og-image.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       {/* Hero Section */}

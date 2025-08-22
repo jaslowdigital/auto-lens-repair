@@ -61,6 +61,9 @@ export default function GalleryPage() {
         title="Before & After Gallery - Headlight Restoration Results | Auto Lens Repair"
         description="See dramatic before and after results of our professional headlight restoration service. Transform foggy, yellow headlights to crystal clear diamond clarity."
         keywords="before after headlights, headlight restoration results, foggy headlight repair, yellow headlight cleaning"
+        canonical="https://workspace--njaslow.replit.app/gallery"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/og-image.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       {/* Hero Section */}
