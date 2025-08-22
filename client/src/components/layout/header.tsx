@@ -31,7 +31,7 @@ export function Header() {
         <div className="hidden md:flex justify-between items-center py-4 w-full">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
-              <img src={logoImage} alt="Auto Lens Repair Logo" className="h-12 w-auto mr-3" />
+              <img src={logoImage} alt="Auto Lens Repair Logo" className="h-14 w-auto mr-3" />
               <span className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue">Auto Lens Repair</span>
             </div>
           </Link>
@@ -64,7 +64,7 @@ export function Header() {
           <div className="flex-shrink-0">
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                <img src={logoImage} alt="Auto Lens Repair Logo" className="h-10 w-auto mr-2" />
+                <img src={logoImage} alt="Auto Lens Repair Logo" className="h-12 w-auto mr-2" />
                 <span className="text-lg font-bold text-auto-blue">Auto Lens Repair</span>
               </div>
             </Link>
