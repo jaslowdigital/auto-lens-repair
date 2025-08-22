@@ -62,7 +62,7 @@ export default function ServicesPage() {
                   </ul>
                 </div>
 
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Schedule Mobile Service
@@ -104,7 +104,7 @@ export default function ServicesPage() {
                   </ul>
                 </div>
 
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Call for Location
@@ -146,7 +146,7 @@ export default function ServicesPage() {
                   </ul>
                 </div>
 
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Corporate Pricing
@@ -236,7 +236,7 @@ export default function ServicesPage() {
             Choose the service option that works best for you. All services include our 
             professional restoration process and 1-year warranty.
           </p>
-          <Button asChild className="bg-auto-amber text-auto-blue px-8 sm:px-12 py-4 text-lg sm:text-xl font-bold hover:bg-yellow-400 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
+          <Button asChild className="bg-auto-amber text-auto-blue px-8 sm:px-12 py-4 text-lg sm:text-xl font-bold hover:bg-yellow-400 hover:text-blue-800 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
             <a href="tel:445-200-7542" className="flex items-center justify-center">
               <Phone className="mr-3 h-5 sm:h-6 w-5 sm:w-6" />
               Call (445) 200-7542 Now

@@ -49,7 +49,7 @@ export function Header() {
             ))}
           </div>
 
-          <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 text-base px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg">
+          <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 text-base px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg">
             <a href="tel:445-200-7542" className="flex items-center justify-center">
               <Phone className="w-4 h-4 mr-2" />
               Call Now
@@ -71,7 +71,7 @@ export function Header() {
           
           {/* Call Button - Center */}
           <div className="flex-1 flex justify-center">
-            <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 text-sm px-4 py-2 rounded-lg font-semibold shadow-md">
+            <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 text-sm px-4 py-2 rounded-lg font-semibold shadow-md">
               <a href="tel:445-200-7542" className="flex items-center justify-center">
                 <Phone className="w-3 h-3 mr-1" />
                 Call

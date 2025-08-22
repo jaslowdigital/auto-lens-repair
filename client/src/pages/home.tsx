@@ -60,7 +60,7 @@ export default function HomePage() {
                     <span className="whitespace-nowrap">Call (445) 200-7542</span>
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-2 border-white text-white px-6 py-4 text-base sm:text-lg font-semibold hover:bg-white hover:text-auto-blue transition-all duration-200 rounded-lg flex-1">
+                <Button asChild variant="outline" className="border-2 border-auto-amber text-auto-amber px-6 py-4 text-base sm:text-lg font-semibold hover:bg-auto-amber hover:text-auto-blue transition-all duration-200 rounded-lg flex-1">
                   <Link href="/gallery" className="flex items-center justify-center">
                     <span className="flex items-center">
                       View Results <ArrowRight className="ml-2 h-5 w-5" />
@@ -111,7 +111,7 @@ export default function HomePage() {
                   We come to your location - home, office, or anywhere convenient for you. 
                   No need to leave your vehicle anywhere.
                 </p>
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Schedule Mobile Service
@@ -130,7 +130,7 @@ export default function HomePage() {
                   Prefer to drop off your vehicle? Our convenient location provides 
                   professional service while you wait or leave your car.
                 </p>
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Call for Location
@@ -149,7 +149,7 @@ export default function HomePage() {
                   Fleet services for car dealerships, golf cart dealers, 
                   and any business with vehicle inventory.
                 </p>
-                <Button asChild className="bg-auto-blue text-white hover:bg-blue-800 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
+                <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg w-full">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-4 w-4" />
                     Corporate Pricing

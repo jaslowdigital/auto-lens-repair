@@ -124,7 +124,7 @@ export default function GalleryPage() {
           </div>
 
           <div className="text-center">
-            <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-8 py-4 text-base sm:text-lg font-bold hover:bg-yellow-400 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
+            <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-8 py-4 text-base sm:text-lg font-bold hover:bg-yellow-400 hover:text-blue-800 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
               <a href="tel:445-200-7542" className="flex items-center justify-center">
                 <Phone className="mr-2 h-4 sm:h-5 w-4 sm:w-5" />
                 Get Your Quote: (445) 200-7542
