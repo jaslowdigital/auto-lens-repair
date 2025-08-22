@@ -18,7 +18,7 @@ export default function ServiceAreasPage() {
     {
       county: "Bucks County", 
       cities: [
-        "Doylestown", "Newtown", "Warrington", "Chalfont", "New Britain",
+        "Doylestown", "Quakertown", "Newtown", "Warrington", "Chalfont", "New Britain",
         "Warminster", "Southampton", "Feasterville", "Trevose", "Levittown",
         "Bristol", "Langhorne", "Yardley", "Morrisville", "Richboro",
         "Ivyland", "Jamison", "Furlong", "Buckingham", "Perkasie"
@@ -110,6 +110,11 @@ export default function ServiceAreasPage() {
                               Pottstown
                             </Button>
                           </Link>
+                          <Link href="/harleysville">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Harleysville
+                            </Button>
+                          </Link>
                         </div>
                       </>
                     )}
@@ -135,6 +140,11 @@ export default function ServiceAreasPage() {
                           <Link href="/new-hope">
                             <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
                               New Hope
+                            </Button>
+                          </Link>
+                          <Link href="/quakertown">
+                            <Button variant="ghost" size="sm" className="w-full text-xs text-auto-blue hover:bg-auto-blue hover:text-white">
+                              Quakertown
                             </Button>
                           </Link>
                         </div>

@@ -27,6 +27,8 @@ import { CenterCityPage } from "@/pages/towns/center-city";
 import { BensalemPage } from "@/pages/towns/bensalem";
 import { PottstownPage } from "@/pages/towns/pottstown";
 import { NewHopePage } from "@/pages/towns/new-hope";
+import QuakertownPage from "@/pages/towns/quakertown";
+import HarleysvillePage from "@/pages/towns/harleysville";
 
 function Router() {
   return (
@@ -52,6 +54,8 @@ function Router() {
       <Route path="/bensalem" component={BensalemPage} />
       <Route path="/pottstown" component={PottstownPage} />
       <Route path="/new-hope" component={NewHopePage} />
+      <Route path="/quakertown" component={QuakertownPage} />
+      <Route path="/harleysville" component={HarleysvillePage} />
       
       <Route component={NotFound} />
     </Switch>
