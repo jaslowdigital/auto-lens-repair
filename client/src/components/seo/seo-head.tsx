@@ -43,6 +43,16 @@ export function SEOHead({ title, description, canonical, keywords }: SEOHeadProp
       }
       linkCanonical.setAttribute('href', canonical);
     }
+
+    // Update favicon
+    let linkIcon = document.querySelector('link[rel="icon"]');
+    if (!linkIcon) {
+      linkIcon = document.createElement('link');
+      linkIcon.setAttribute('rel', 'icon');
+      linkIcon.setAttribute('type', 'image/png');
+      document.head.appendChild(linkIcon);
+    }
+    linkIcon.setAttribute('href', '/attached_assets/Auto Lens Repair _1755827734654.png');
   }, [title, description, canonical, keywords]);
 
   return null;

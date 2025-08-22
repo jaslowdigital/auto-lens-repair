@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'wouter';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Car, Phone } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
+import logoImage from '@assets/Auto Lens Repair _1755827734654.png';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,7 +31,7 @@ export function Header() {
         <div className="hidden md:flex justify-between items-center py-4 w-full">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
-              <Car className="text-auto-blue text-xl sm:text-2xl mr-2 sm:mr-3" />
+              <img src={logoImage} alt="Auto Lens Repair Logo" className="h-10 w-auto mr-3" />
               <span className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue">Auto Lens Repair</span>
             </div>
           </Link>
@@ -63,7 +64,7 @@ export function Header() {
           <div className="flex-shrink-0">
             <Link href="/">
               <div className="flex items-center cursor-pointer">
-                <Car className="text-auto-blue text-xl mr-2" />
+                <img src={logoImage} alt="Auto Lens Repair Logo" className="h-8 w-auto mr-2" />
                 <span className="text-lg font-bold text-auto-blue">Auto Lens Repair</span>
               </div>
             </Link>
