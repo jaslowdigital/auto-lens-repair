@@ -58,8 +58,8 @@ export function Header() {
           </Button>
         </div>
 
-        {/* Mobile Layout - Logo Left, Call Center, Hamburger Right */}
-        <div className="flex md:hidden items-center py-4 w-full">
+        {/* Mobile Layout - Logo Left, Hamburger Right */}
+        <div className="flex md:hidden items-center justify-between py-4 w-full">
           {/* Logo - Left Side */}
           <div className="flex-shrink-0">
             <Link href="/">
@@ -69,22 +69,12 @@ export function Header() {
               </div>
             </Link>
           </div>
-          
-          {/* Call Button - Center */}
-          <div className="flex-1 flex justify-center">
-            <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 text-sm px-4 py-2 rounded-lg font-semibold shadow-md">
-              <a href="tel:445-200-7542" className="flex items-center justify-center">
-                <Phone className="w-3 h-3 mr-1" />
-                Call
-              </a>
-            </Button>
-          </div>
 
           {/* Hamburger Menu - Right Side */}
           <div className="flex-shrink-0">
             <Button
               variant="ghost"
-              className="text-auto-gray hover:text-auto-blue hover:bg-gray-100 transition-all duration-200 p-2 ml-2 rounded-lg"
+              className="text-auto-gray hover:text-auto-blue hover:bg-gray-100 transition-all duration-200 p-2 rounded-lg"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -109,6 +99,16 @@ export function Header() {
                 </span>
               </Link>
             ))}
+            
+            {/* Call Button in Mobile Menu */}
+            <div className="pt-4 border-t border-gray-200">
+              <Button asChild className="bg-auto-blue text-auto-amber hover:bg-blue-800 hover:text-yellow-300 transition-all duration-200 text-sm px-4 py-3 rounded-lg font-semibold shadow-md w-full">
+                <a href="tel:445-200-7542" className="flex items-center justify-center" onClick={() => setIsMobileMenuOpen(false)}>
+                  <Phone className="w-4 h-4 mr-2" />
+                  Call (445) 200-7542
+                </a>
+              </Button>
+            </div>
           </div>
         )}
       </nav>
