@@ -56,7 +56,7 @@ export function SEOHead({ title, description, canonical, keywords }: SEOHeadProp
 
     // OpenGraph meta tags - Use absolute URL for social platforms
     const baseUrl = window.location.origin;
-    const ogImageUrl = `${baseUrl}/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828994699.png`;
+    const ogImageUrl = `${baseUrl}/attached_assets/og-image.png`;
     
     // OpenGraph Title
     let ogTitle = document.querySelector('meta[property="og:title"]');
