@@ -1,21 +1,22 @@
 import { Button } from '@/components/ui/button';
 import { Phone, MapPin, Car, Shield, Clock, CheckCircle } from 'lucide-react';
 import SEOHead from '@/components/seo/seo-head';
+import { Link } from 'wouter';
 
 export function PhiladelphiaCountyPage() {
   const majorNeighborhoods = [
-    { name: 'Center City', population: '183,240', description: 'Downtown business & cultural core' },
-    { name: 'South Philadelphia', population: '173,810', description: 'Historic Italian & multicultural area' },
-    { name: 'West Philadelphia', population: '301,830', description: 'University corridor (Drexel, Penn)' },
-    { name: 'North Philadelphia', population: '274,620', description: 'Diverse residential communities' },
-    { name: 'Northeast Philadelphia', population: '423,140', description: 'Suburban-style neighborhoods' },
-    { name: 'Northwest Philadelphia', population: '208,180', description: 'Historic Germantown & Chestnut Hill' },
-    { name: 'Fishtown', population: '18,500', description: 'Hip arts & music scene' },
-    { name: 'Northern Liberties', population: '12,300', description: 'Nightlife & dining district' },
-    { name: 'Rittenhouse Square', population: '10,500', description: 'Upscale park district' },
-    { name: 'University City', population: '47,500', description: 'Drexel/Penn campus area' },
-    { name: 'Old City', population: '8,900', description: 'Historic district, Independence Hall area' },
-    { name: 'Manayunk', population: '12,200', description: 'Canal town with restaurants & bars' }
+    { name: 'Philadelphia (All Areas)', population: '1,567,258', description: 'Complete city coverage - all neighborhoods', link: '/philadelphia' },
+    { name: 'Center City', population: '183,240', description: 'Downtown business & cultural core', link: '/center-city' },
+    { name: 'Upper Darby', population: '82,795', description: 'Delaware County suburban community', link: '/upper-darby' },
+    { name: 'South Philadelphia', population: '173,810', description: 'Historic Italian & multicultural area', link: null },
+    { name: 'West Philadelphia', population: '301,830', description: 'University corridor (Drexel, Penn)', link: null },
+    { name: 'North Philadelphia', population: '274,620', description: 'Diverse residential communities', link: null },
+    { name: 'Northeast Philadelphia', population: '423,140', description: 'Suburban-style neighborhoods', link: null },
+    { name: 'Northwest Philadelphia', population: '208,180', description: 'Historic Germantown & Chestnut Hill', link: null },
+    { name: 'Fishtown', population: '18,500', description: 'Hip arts & music scene', link: null },
+    { name: 'Northern Liberties', population: '12,300', description: 'Nightlife & dining district', link: null },
+    { name: 'Rittenhouse Square', population: '10,500', description: 'Upscale park district', link: null },
+    { name: 'University City', population: '47,500', description: 'Drexel/Penn campus area', link: null }
   ];
 
   const planningDistricts = [
@@ -101,17 +102,39 @@ export function PhiladelphiaCountyPage() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {majorNeighborhoods.map((neighborhood) => (
-              <div key={neighborhood.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100">
-                <div className="flex items-start justify-between mb-3">
-                  <h3 className="text-xl font-bold text-auto-blue">{neighborhood.name}</h3>
-                  <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
-                </div>
-                <p className="text-auto-gray mb-2">Population: {neighborhood.population}</p>
-                <p className="text-sm text-auto-gray mb-4">{neighborhood.description}</p>
-                <div className="flex items-center text-sm text-green-600">
-                  <CheckCircle className="h-4 w-4 mr-2" />
-                  Mobile Service Available
-                </div>
+              <div key={neighborhood.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                {neighborhood.link ? (
+                  <Link href={neighborhood.link}>
+                    <div className="cursor-pointer">
+                      <div className="flex items-start justify-between mb-3">
+                        <h3 className="text-xl font-bold text-auto-blue hover:text-blue-700">{neighborhood.name}</h3>
+                        <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
+                      </div>
+                      <p className="text-auto-gray mb-2">Population: {neighborhood.population}</p>
+                      <p className="text-sm text-auto-gray mb-4">{neighborhood.description}</p>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center text-sm text-green-600">
+                          <CheckCircle className="h-4 w-4 mr-2" />
+                          Mobile Service Available
+                        </div>
+                        <span className="text-sm text-auto-blue font-medium">Learn More →</span>
+                      </div>
+                    </div>
+                  </Link>
+                ) : (
+                  <div>
+                    <div className="flex items-start justify-between mb-3">
+                      <h3 className="text-xl font-bold text-auto-blue">{neighborhood.name}</h3>
+                      <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
+                    </div>
+                    <p className="text-auto-gray mb-2">Population: {neighborhood.population}</p>
+                    <p className="text-sm text-auto-gray mb-4">{neighborhood.description}</p>
+                    <div className="flex items-center text-sm text-green-600">
+                      <CheckCircle className="h-4 w-4 mr-2" />
+                      Mobile Service Available
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>

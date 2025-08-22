@@ -1,21 +1,22 @@
 import { Button } from '@/components/ui/button';
 import { Phone, MapPin, Car, Shield, Clock, CheckCircle } from 'lucide-react';
 import SEOHead from '@/components/seo/seo-head';
+import { Link } from 'wouter';
 
 export function MontgomeryCountyPage() {
   const majorTowns = [
-    { name: 'Norristown', population: '34,324', description: 'County seat and largest city' },
-    { name: 'Pottstown', population: '22,711', description: 'Historic borough founded in 1752' },
-    { name: 'Lansdale', population: '18,773', description: 'Safe, family-friendly community' },
-    { name: 'Conshohocken', population: '8,039', description: 'Business hub along the Schuylkill River' },
-    { name: 'King of Prussia', population: '22,028', description: 'Major commercial and shopping center' },
-    { name: 'Ardmore', population: '13,307', description: 'Main Street of the Main Line' },
-    { name: 'Ambler', population: '6,417', description: 'Charming suburban borough' },
-    { name: 'Collegeville', population: '5,089', description: 'Home to Ursinus College' },
-    { name: 'Jenkintown', population: '4,422', description: 'Historic downtown district' },
-    { name: 'Hatboro', population: '7,360', description: 'Family-oriented community' },
-    { name: 'Blue Bell', population: '6,067', description: 'Corporate headquarters location' },
-    { name: 'Royersford', population: '4,820', description: 'Schuylkill River community' }
+    { name: 'Norristown', population: '34,324', description: 'County seat and largest city', link: '/norristown' },
+    { name: 'Pottstown', population: '22,711', description: 'Historic borough founded in 1752', link: '/pottstown' },
+    { name: 'King of Prussia', population: '22,028', description: 'Major commercial and shopping center', link: '/king-of-prussia' },
+    { name: 'Lansdale', population: '18,773', description: 'Safe, family-friendly community', link: '/lansdale' },
+    { name: 'Abington', population: '55,310', description: 'Large suburban township', link: '/abington' },
+    { name: 'Plymouth Meeting', population: '6,177', description: 'Major business and shopping hub', link: '/plymouth-meeting' },
+    { name: 'Cheltenham', population: '36,793', description: 'Diverse community near Philadelphia', link: '/cheltenham' },
+    { name: 'Willow Grove', population: '15,726', description: 'Shopping destination with mall', link: '/willow-grove' },
+    { name: 'Harleysville', population: '9,286', description: 'Historic Pennsylvania German community', link: '/harleysville' },
+    { name: 'Conshohocken', population: '8,039', description: 'Business hub along the Schuylkill River', link: null },
+    { name: 'Ardmore', population: '13,307', description: 'Main Street of the Main Line', link: null },
+    { name: 'Ambler', population: '6,417', description: 'Charming suburban borough', link: null }
   ];
 
   const townships = [
@@ -94,17 +95,39 @@ export function MontgomeryCountyPage() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {majorTowns.map((town) => (
-              <div key={town.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100">
-                <div className="flex items-start justify-between mb-3">
-                  <h3 className="text-xl font-bold text-auto-blue">{town.name}</h3>
-                  <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
-                </div>
-                <p className="text-auto-gray mb-2">Population: {town.population}</p>
-                <p className="text-sm text-auto-gray mb-4">{town.description}</p>
-                <div className="flex items-center text-sm text-green-600">
-                  <CheckCircle className="h-4 w-4 mr-2" />
-                  Mobile Service Available
-                </div>
+              <div key={town.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                {town.link ? (
+                  <Link href={town.link}>
+                    <div className="cursor-pointer">
+                      <div className="flex items-start justify-between mb-3">
+                        <h3 className="text-xl font-bold text-auto-blue hover:text-blue-700">{town.name}</h3>
+                        <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
+                      </div>
+                      <p className="text-auto-gray mb-2">Population: {town.population}</p>
+                      <p className="text-sm text-auto-gray mb-4">{town.description}</p>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center text-sm text-green-600">
+                          <CheckCircle className="h-4 w-4 mr-2" />
+                          Mobile Service Available
+                        </div>
+                        <span className="text-sm text-auto-blue font-medium">Learn More →</span>
+                      </div>
+                    </div>
+                  </Link>
+                ) : (
+                  <div>
+                    <div className="flex items-start justify-between mb-3">
+                      <h3 className="text-xl font-bold text-auto-blue">{town.name}</h3>
+                      <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
+                    </div>
+                    <p className="text-auto-gray mb-2">Population: {town.population}</p>
+                    <p className="text-sm text-auto-gray mb-4">{town.description}</p>
+                    <div className="flex items-center text-sm text-green-600">
+                      <CheckCircle className="h-4 w-4 mr-2" />
+                      Mobile Service Available
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>

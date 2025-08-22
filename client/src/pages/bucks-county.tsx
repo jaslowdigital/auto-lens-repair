@@ -1,21 +1,22 @@
 import { Button } from '@/components/ui/button';
 import { Phone, MapPin, Car, Shield, Clock, CheckCircle } from 'lucide-react';
 import SEOHead from '@/components/seo/seo-head';
+import { Link } from 'wouter';
 
 export function BucksCountyPage() {
   const majorTowns = [
-    { name: 'Bensalem', population: '60,427', description: 'Largest municipality, 17 miles from Center City' },
-    { name: 'Bristol Township', population: '53,293', description: 'Second largest municipality in Bucks County' },
-    { name: 'Doylestown', population: '8,297', description: 'County seat and cultural hub' },
-    { name: 'Lower Makefield', population: '32,681', description: 'One of wealthiest communities in US' },
-    { name: 'Warrington', population: '23,418', description: 'Gateway to Historic Bucks County' },
-    { name: 'Bristol Borough', population: '9,739', description: 'Third oldest borough in PA (est. 1681)' },
-    { name: 'Morrisville', population: '10,023', description: 'Most populous borough in Bucks County' },
-    { name: 'New Hope', population: '2,512', description: 'Historic arts community on Delaware River' },
-    { name: 'Newtown', population: '11,700', description: 'Historic town with preserved center' },
-    { name: 'Yardley', population: '2,434', description: 'Delaware River community' },
-    { name: 'Langhorne', population: '1,622', description: 'Central Bucks location' },
-    { name: 'Perkasie', population: '8,511', description: 'Upper Bucks community' }
+    { name: 'Bensalem', population: '60,427', description: 'Largest municipality, 17 miles from Center City', link: '/bensalem' },
+    { name: 'Levittown', population: '52,983', description: 'Historic planned suburban community', link: '/levittown' },
+    { name: 'Doylestown', population: '8,297', description: 'County seat and cultural hub', link: '/doylestown' },
+    { name: 'Warminster', population: '32,682', description: 'Strategic Bucks County location', link: '/warminster' },
+    { name: 'New Hope', population: '2,512', description: 'Historic arts community on Delaware River', link: '/new-hope' },
+    { name: 'Quakertown', population: '8,979', description: 'Upper Bucks County borough', link: '/quakertown' },
+    { name: 'Yardley', population: '2,434', description: 'Delaware River community', link: '/yardley' },
+    { name: 'Bristol Township', population: '53,293', description: 'Second largest municipality in Bucks County', link: null },
+    { name: 'Lower Makefield', population: '32,681', description: 'One of wealthiest communities in US', link: null },
+    { name: 'Warrington', population: '23,418', description: 'Gateway to Historic Bucks County', link: null },
+    { name: 'Bristol Borough', population: '9,739', description: 'Third oldest borough in PA (est. 1681)', link: null },
+    { name: 'Morrisville', population: '10,023', description: 'Most populous borough in Bucks County', link: null }
   ];
 
   const townships = [
@@ -101,17 +102,39 @@ export function BucksCountyPage() {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {majorTowns.map((town) => (
-              <div key={town.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100">
-                <div className="flex items-start justify-between mb-3">
-                  <h3 className="text-xl font-bold text-auto-blue">{town.name}</h3>
-                  <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
-                </div>
-                <p className="text-auto-gray mb-2">Population: {town.population}</p>
-                <p className="text-sm text-auto-gray mb-4">{town.description}</p>
-                <div className="flex items-center text-sm text-green-600">
-                  <CheckCircle className="h-4 w-4 mr-2" />
-                  Mobile Service Available
-                </div>
+              <div key={town.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                {town.link ? (
+                  <Link href={town.link}>
+                    <div className="cursor-pointer">
+                      <div className="flex items-start justify-between mb-3">
+                        <h3 className="text-xl font-bold text-auto-blue hover:text-blue-700">{town.name}</h3>
+                        <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
+                      </div>
+                      <p className="text-auto-gray mb-2">Population: {town.population}</p>
+                      <p className="text-sm text-auto-gray mb-4">{town.description}</p>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center text-sm text-green-600">
+                          <CheckCircle className="h-4 w-4 mr-2" />
+                          Mobile Service Available
+                        </div>
+                        <span className="text-sm text-auto-blue font-medium">Learn More →</span>
+                      </div>
+                    </div>
+                  </Link>
+                ) : (
+                  <div>
+                    <div className="flex items-start justify-between mb-3">
+                      <h3 className="text-xl font-bold text-auto-blue">{town.name}</h3>
+                      <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
+                    </div>
+                    <p className="text-auto-gray mb-2">Population: {town.population}</p>
+                    <p className="text-sm text-auto-gray mb-4">{town.description}</p>
+                    <div className="flex items-center text-sm text-green-600">
+                      <CheckCircle className="h-4 w-4 mr-2" />
+                      Mobile Service Available
+                    </div>
+                  </div>
+                )}
               </div>
             ))}
           </div>

@@ -29,6 +29,16 @@ import { PottstownPage } from "@/pages/towns/pottstown";
 import { NewHopePage } from "@/pages/towns/new-hope";
 import QuakertownPage from "@/pages/towns/quakertown";
 import HarleysvillePage from "@/pages/towns/harleysville";
+import PhiladelphiaPage from "@/pages/towns/philadelphia";
+import UpperDarbyPage from "@/pages/towns/upper-darby";
+import AbingtonPage from "@/pages/towns/abington";
+import WarminsterPage from "@/pages/towns/warminster";
+import LansdalePage from "@/pages/towns/lansdale";
+import LevittownPage from "@/pages/towns/levittown";
+import PlymouthMeetingPage from "@/pages/towns/plymouth-meeting";
+import CheltenhamPage from "@/pages/towns/cheltenham";
+import WillowGrovePage from "@/pages/towns/willow-grove";
+import YardleyPage from "@/pages/towns/yardley";
 
 function Router() {
   return (
@@ -56,6 +66,16 @@ function Router() {
       <Route path="/new-hope" component={NewHopePage} />
       <Route path="/quakertown" component={QuakertownPage} />
       <Route path="/harleysville" component={HarleysvillePage} />
+      <Route path="/philadelphia" component={PhiladelphiaPage} />
+      <Route path="/upper-darby" component={UpperDarbyPage} />
+      <Route path="/abington" component={AbingtonPage} />
+      <Route path="/warminster" component={WarminsterPage} />
+      <Route path="/lansdale" component={LansdalePage} />
+      <Route path="/levittown" component={LevittownPage} />
+      <Route path="/plymouth-meeting" component={PlymouthMeetingPage} />
+      <Route path="/cheltenham" component={CheltenhamPage} />
+      <Route path="/willow-grove" component={WillowGrovePage} />
+      <Route path="/yardley" component={YardleyPage} />
       
       <Route component={NotFound} />
     </Switch>
