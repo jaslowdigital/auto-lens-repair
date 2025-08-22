@@ -20,7 +20,7 @@ The site features comprehensive service information including before/after galle
 - **NEW**: Comprehensive county pages for Montgomery County, Bucks County, and Philadelphia
 - **NEW**: Individual town pages for major municipalities including Norristown, King of Prussia, Doylestown, Center City, Bensalem, Pottstown, and New Hope
 - **NEW**: Service areas page updated with direct links to all county and town pages
-- **NEW**: All button text colors updated to use amber/blue scheme instead of white text
+- **NEW**: All button text colors updated to use proper contrast - white text on amber backgrounds for optimal readability
 
 # User Preferences
 

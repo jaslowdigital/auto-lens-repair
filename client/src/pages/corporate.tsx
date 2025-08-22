@@ -279,7 +279,7 @@ export default function CorporatePage() {
             Ready to improve your lot presentation and save money on headlight restoration? 
             Call now to discuss volume pricing and partnership opportunities.
           </p>
-          <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-12 py-4 text-base sm:text-xl font-bold hover:bg-yellow-400 hover:text-blue-800 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
+          <Button asChild className="bg-auto-amber text-white px-6 sm:px-12 py-4 text-base sm:text-xl font-bold hover:bg-yellow-400 hover:text-white transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
             <a href="tel:445-200-7542" className="flex items-center justify-center">
               <Phone className="mr-3 h-5 sm:h-6 w-5 sm:w-6" />
               <span className="text-center">Call for Corporate Pricing: (445) 200-7542</span>
