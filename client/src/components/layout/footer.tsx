@@ -59,7 +59,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 AutoLensRepair.com. All rights reserved. | Professional headlight restoration services in Pennsylvania</p>
+          <p>&copy; 2024 Auto Lens Repair. All rights reserved. | Professional headlight restoration services in Pennsylvania</p>
         </div>
       </div>
     </footer>
