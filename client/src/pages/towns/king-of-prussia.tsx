@@ -29,7 +29,9 @@ export function KingOfPrussiaPage() {
         title="King of Prussia PA Headlight Restoration | Auto Lens Repair"
         description="Professional headlight restoration services in King of Prussia, Pennsylvania. Mobile service to corporate offices, shopping centers, and residential areas. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration King of Prussia PA, auto headlight cleaning KOP, mobile headlight repair Upper Merion, King of Prussia Mall car services"
-        canonical="https://autolensrepair.com/king-of-prussia"
+        canonical="https://workspace--njaslow.replit.app/king-of-prussia"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       {/* Hero Section */}

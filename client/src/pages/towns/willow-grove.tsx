@@ -8,8 +8,10 @@ export default function WillowGrove() {
       <SEOHead 
         title="Professional Headlight Restoration in Willow Grove, PA | Auto Lens Repair"
         description="Expert headlight restoration services in Willow Grove, Montgomery County. Mobile and drop-off options available. Serving Willow Grove and surrounding areas. Call (445) 200-7542."
-        canonical="https://autolensrepair.com/towns/willow-grove"
+        canonical="https://workspace--njaslow.replit.app/willow-grove"
         keywords="headlight restoration Willow Grove, headlight cleaning Willow Grove PA, foggy headlight repair Montgomery County, headlight polishing Upper Moreland"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
       
       <div className="min-h-screen bg-white">

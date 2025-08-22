@@ -27,7 +27,9 @@ export function NorristownPage() {
         title="Norristown PA Headlight Restoration | Auto Lens Repair"
         description="Professional headlight restoration services in Norristown, Pennsylvania - Montgomery County seat. Mobile service available to your home or office. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration Norristown PA, auto headlight cleaning Norristown, mobile headlight repair Montgomery County, Norristown car detailing"
-        canonical="https://autolensrepair.com/norristown"
+        canonical="https://workspace--njaslow.replit.app/norristown"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       {/* Hero Section */}

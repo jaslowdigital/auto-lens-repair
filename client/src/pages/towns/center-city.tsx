@@ -31,7 +31,9 @@ export function CenterCityPage() {
         title="Center City Philadelphia PA Headlight Restoration | Auto Lens Repair"
         description="Professional headlight restoration services in Center City Philadelphia. Mobile service to downtown offices, residential buildings, and parking garages. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration Center City Philadelphia, downtown Philadelphia auto service, mobile headlight repair Philly, Center City car detailing"
-        canonical="https://autolensrepair.com/center-city"
+        canonical="https://workspace--njaslow.replit.app/center-city"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       {/* Hero Section */}

@@ -8,8 +8,10 @@ export default function PlymouthMeeting() {
       <SEOHead 
         title="Professional Headlight Restoration in Plymouth Meeting, PA | Auto Lens Repair"
         description="Expert headlight restoration services in Plymouth Meeting, Montgomery County. Mobile and drop-off options available. Serving Plymouth Meeting and surrounding areas. Call (445) 200-7542."
-        canonical="https://autolensrepair.com/towns/plymouth-meeting"
+        canonical="https://workspace--njaslow.replit.app/plymouth-meeting"
         keywords="headlight restoration Plymouth Meeting, headlight cleaning Plymouth Meeting PA, foggy headlight repair Montgomery County, headlight polishing Plymouth Township"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
       
       <div className="min-h-screen bg-white">

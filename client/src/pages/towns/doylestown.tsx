@@ -29,7 +29,9 @@ export function DoylestownPage() {
         title="Doylestown PA Headlight Restoration | Auto Lens Repair"
         description="Professional headlight restoration services in Doylestown, Pennsylvania - Bucks County seat. Mobile service to downtown, hospital district, and residential areas. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration Doylestown PA, auto headlight cleaning Doylestown, mobile headlight repair Bucks County, Doylestown car services"
-        canonical="https://autolensrepair.com/doylestown"
+        canonical="https://workspace--njaslow.replit.app/doylestown"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       {/* Hero Section */}

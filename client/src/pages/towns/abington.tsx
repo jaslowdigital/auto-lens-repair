@@ -8,8 +8,10 @@ export default function Abington() {
       <SEOHead 
         title="Professional Headlight Restoration in Abington, PA | Auto Lens Repair"
         description="Expert headlight restoration services in Abington Township, Montgomery County. Mobile and drop-off options available. Serving Abington, Roslyn, and surrounding areas. Call (445) 200-7542."
-        canonical="https://autolensrepair.com/towns/abington"
+        canonical="https://workspace--njaslow.replit.app/abington"
         keywords="headlight restoration Abington, headlight cleaning Abington PA, foggy headlight repair Abington Township, headlight polishing Montgomery County"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
       
       <div className="min-h-screen bg-white">

@@ -9,7 +9,9 @@ export function NewHopePage() {
         title="New Hope PA Headlight Restoration | Auto Lens Repair"
         description="Professional headlight restoration services in New Hope, Pennsylvania. Historic arts community on Delaware River. Mobile service available. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration New Hope PA, auto headlight cleaning New Hope, mobile headlight repair Bucks County"
-        canonical="https://autolensrepair.com/new-hope"
+        canonical="https://workspace--njaslow.replit.app/new-hope"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
 
       <section className="bg-gradient-to-br from-auto-blue to-blue-900 text-white py-12 sm:py-20">

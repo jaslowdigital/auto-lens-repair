@@ -11,7 +11,7 @@ export default function ContactPage() {
         description="Contact Auto Lens Repair for professional headlight restoration. Call 445-200-7542 for mobile or drop-off service in Montgomery County, Bucks County, Philadelphia PA."
         keywords="contact auto lens repair, headlight restoration contact, 445-200-7542, mobile service contact"
         canonical="https://workspace--njaslow.replit.app/contact"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/og-image.png"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
         twitterHandle="@AutoLensRepair"
       />
 

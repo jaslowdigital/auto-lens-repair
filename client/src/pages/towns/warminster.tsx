@@ -8,8 +8,10 @@ export default function Warminster() {
       <SEOHead 
         title="Professional Headlight Restoration in Warminster, PA | Auto Lens Repair"
         description="Expert headlight restoration services in Warminster Township, Bucks County. Mobile and drop-off options available. Serving Warminster, Hartsville, and surrounding areas. Call (445) 200-7542."
-        canonical="https://autolensrepair.com/towns/warminster"
+        canonical="https://workspace--njaslow.replit.app/warminster"
         keywords="headlight restoration Warminster, headlight cleaning Warminster PA, foggy headlight repair Warminster Township, headlight polishing Bucks County"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        twitterHandle="@AutoLensRepair"
       />
       
       <div className="min-h-screen bg-white">
