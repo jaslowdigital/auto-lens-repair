@@ -31,7 +31,7 @@ export function Header() {
           <Link href="/">
             <div className="flex items-center cursor-pointer">
               <Car className="text-auto-blue text-xl sm:text-2xl mr-2 sm:mr-3" />
-              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue">AutoLensRepair.com</span>
+              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-auto-blue">Auto Lens Repair</span>
             </div>
           </Link>
           
@@ -64,7 +64,7 @@ export function Header() {
             <Link href="/">
               <div className="flex items-center cursor-pointer">
                 <Car className="text-auto-blue text-xl mr-2" />
-                <span className="text-lg font-bold text-auto-blue">AutoLensRepair.com</span>
+                <span className="text-lg font-bold text-auto-blue">Auto Lens Repair</span>
               </div>
             </Link>
           </div>

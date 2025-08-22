@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="flex items-center mb-4">
               <Car className="text-auto-amber text-2xl mr-3" />
-              <span className="text-xl font-bold">AutoLensRepair.com</span>
+              <span className="text-xl font-bold">Auto Lens Repair</span>
             </div>
             <p className="text-gray-300 mb-4">
               Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA.

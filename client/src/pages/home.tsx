@@ -53,14 +53,14 @@ export default function HomePage() {
                 Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. 
                 Mobile service available - we come to you or convenient drop-off options.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full">
-                <Button asChild className="bg-auto-amber text-auto-blue px-6 sm:px-8 py-4 text-base sm:text-lg font-bold hover:bg-yellow-400 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
+              <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md mx-auto sm:max-w-none">
+                <Button asChild className="bg-auto-amber text-auto-blue px-6 py-4 text-base sm:text-lg font-bold hover:bg-yellow-400 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl flex-1">
                   <a href="tel:445-200-7542" className="flex items-center justify-center">
                     <Phone className="mr-2 h-5 w-5" />
                     <span className="whitespace-nowrap">Call (445) 200-7542</span>
                   </a>
                 </Button>
-                <Button asChild variant="outline" className="border-2 border-white text-white px-6 sm:px-8 py-4 text-base sm:text-lg font-semibold hover:bg-white hover:text-auto-blue transition-all duration-200 rounded-lg w-full sm:w-auto">
+                <Button asChild variant="outline" className="border-2 border-white text-white px-6 py-4 text-base sm:text-lg font-semibold hover:bg-white hover:text-auto-blue transition-all duration-200 rounded-lg flex-1">
                   <Link href="/gallery" className="flex items-center justify-center">
                     <span className="flex items-center">
                       View Results <ArrowRight className="ml-2 h-5 w-5" />
