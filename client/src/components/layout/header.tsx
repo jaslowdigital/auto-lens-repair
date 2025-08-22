@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { Menu, X, Phone } from 'lucide-react';
-import logoImage from '@assets/Auto Lens Repair _1755827734654.png';
+import logoImage from '@assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
