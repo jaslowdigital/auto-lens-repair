@@ -77,7 +77,7 @@ export function Header() {
               className="text-auto-gray hover:text-auto-blue hover:bg-gray-100 transition-all duration-200 p-2 rounded-lg"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              {isMobileMenuOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
             </Button>
           </div>
         </div>
