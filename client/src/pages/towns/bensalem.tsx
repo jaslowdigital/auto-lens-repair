@@ -54,7 +54,7 @@ export function BensalemPage() {
             <Button asChild className="bg-auto-amber text-white px-8 sm:px-12 py-4 text-lg sm:text-xl font-bold hover:bg-yellow-400 hover:text-white transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl">
               <a href="tel:445-200-7542" className="flex items-center justify-center">
                 <Phone className="mr-3 h-5 sm:h-6 w-5 sm:w-6" />
-                Call (445) 200-7542 Now
+                Call Now
               </a>
             </Button>
           </div>
@@ -205,7 +205,7 @@ export function BensalemPage() {
           <Button asChild className="bg-auto-amber text-white px-8 sm:px-12 py-4 text-lg sm:text-xl font-bold hover:bg-yellow-400 hover:text-blue-800 transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl">
             <a href="tel:445-200-7542" className="flex items-center justify-center">
               <Phone className="mr-3 h-5 sm:h-6 w-5 sm:w-6" />
-              Call (445) 200-7542 Now
+              Call Now
             </a>
           </Button>
         </div>

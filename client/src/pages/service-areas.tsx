@@ -306,7 +306,7 @@ export default function ServiceAreasPage() {
           <Button asChild className="bg-auto-amber text-white px-12 py-4 text-xl font-bold hover:bg-yellow-400">
             <a href="tel:445-200-7542">
               <Phone className="mr-3 h-6 w-6" />
-              Call (445) 200-7542 Now
+              Call Now
             </a>
           </Button>
           <p className="text-blue-100 mt-4">Free estimates • Mobile service available</p>

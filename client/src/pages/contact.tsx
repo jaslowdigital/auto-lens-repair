@@ -201,7 +201,7 @@ export default function ContactPage() {
           <Button asChild className="bg-auto-amber text-white px-8 sm:px-12 py-4 text-lg sm:text-xl font-bold hover:bg-yellow-400 hover:text-white transition-all duration-200 rounded-lg shadow-lg hover:shadow-xl w-full sm:w-auto">
             <a href="tel:445-200-7542" className="flex items-center justify-center">
               <Phone className="mr-3 h-5 sm:h-6 w-5 sm:w-6" />
-              Call (445) 200-7542 Now
+              Call Now
             </a>
           </Button>
           <div className="mt-6 flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8 text-blue-100">
