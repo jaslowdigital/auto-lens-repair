@@ -10,7 +10,7 @@ export default function Levittown() {
         description="Expert headlight restoration services in Levittown, Bucks County. Mobile and drop-off options available. Serving all Levittown sections and neighborhoods. Call (445) 200-7542."
         canonical="https://workspace--njaslow.replit.app/levittown"
         keywords="headlight restoration Levittown, headlight cleaning Levittown PA, foggy headlight repair Levittown Bucks County, headlight polishing Bristol Township"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png"
         twitterHandle="@AutoLensRepair"
       />
       

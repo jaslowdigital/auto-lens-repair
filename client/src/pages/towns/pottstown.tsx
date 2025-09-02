@@ -10,7 +10,7 @@ export function PottstownPage() {
         description="Professional headlight restoration services in Pottstown, Pennsylvania. Historic borough founded in 1752. Mobile service available. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration Pottstown PA, auto headlight cleaning Pottstown, mobile headlight repair Montgomery County"
         canonical="https://workspace--njaslow.replit.app/pottstown"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png"
         twitterHandle="@AutoLensRepair"
       />
 
