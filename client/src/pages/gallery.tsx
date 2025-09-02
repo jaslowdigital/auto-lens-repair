@@ -6,52 +6,12 @@ import { Phone } from 'lucide-react';
 export default function GalleryPage() {
   const beforeAfterImages = [
     {
-      before: "/attached_assets/IMG_20250822_214628_1756851036410.heic",
-      after: "/attached_assets/IMG_20250822_214634_1756851036423.heic",
-      beforeTitle: "Severely Oxidized",
-      afterTitle: "Crystal Clear",
-      beforeDesc: "Yellow, cloudy headlights reducing visibility and appearance",
-      afterDesc: "Restored to like-new clarity and brightness"
-    },
-    {
       before: "/attached_assets/20250902_181357_0000_1756851362110.png",
       after: "/attached_assets/20250902_181419_0000_1756851362133.png",
-      beforeTitle: "Cloudy & Yellowed",
-      afterTitle: "Professional Grade",
-      beforeDesc: "Years of UV damage and oxidation",
-      afterDesc: "Factory-level clarity and shine restored"
-    },
-    {
-      before: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      beforeTitle: "Reduced Light Output",
-      afterTitle: "Diamond Clarity",
-      beforeDesc: "Dangerous visibility reduction",
-      afterDesc: "Maximum light output and safety"
-    },
-    {
-      before: "https://images.unsplash.com/photo-1563987852-42ad9b7c3c17?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://images.unsplash.com/photo-1571974159729-25c54abdbf3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      beforeTitle: "Hazing & Discoloration",
-      afterTitle: "Showroom Quality",
-      beforeDesc: "Surface hazing affecting light transmission",
-      afterDesc: "Professional restoration to showroom standards"
-    },
-    {
-      before: "https://images.unsplash.com/photo-1574003270836-9b6051ce8d27?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://images.unsplash.com/photo-1568649936853-6629b7e63f18?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      beforeTitle: "Weathered & Dull",
-      afterTitle: "Like-New Finish",
-      beforeDesc: "Weather damage and aging effects",
-      afterDesc: "Completely restored to original clarity"
-    },
-    {
-      before: "https://images.unsplash.com/photo-1585288766827-c7e5e6b7b6b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://images.unsplash.com/photo-1563465225-1ae2dd76b5d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      beforeTitle: "Heavy Oxidation",
-      afterTitle: "Perfect Transparency",
-      beforeDesc: "Severe oxidation blocking light output",
-      afterDesc: "Complete restoration with UV protection"
+      beforeTitle: "Severely Oxidized",
+      afterTitle: "Crystal Clear",
+      beforeDesc: "Years of UV damage and oxidation causing dangerous visibility reduction",
+      afterDesc: "Professional restoration to factory-level clarity and brightness"
     }
   ];
 

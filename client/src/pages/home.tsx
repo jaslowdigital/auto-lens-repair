@@ -7,28 +7,12 @@ import { Link } from 'wouter';
 export default function HomePage() {
   const beforeAfterImages = [
     {
-      before: "/attached_assets/IMG_20250822_214628_1756851036410.heic",
-      after: "/attached_assets/IMG_20250822_214634_1756851036423.heic",
-      beforeTitle: "Severely Oxidized",
-      afterTitle: "Crystal Clear",
-      beforeDesc: "Yellow, cloudy headlights reducing visibility",
-      afterDesc: "Restored to like-new clarity and brightness"
-    },
-    {
       before: "/attached_assets/20250902_181357_0000_1756851362110.png",
       after: "/attached_assets/20250902_181419_0000_1756851362133.png",
-      beforeTitle: "Cloudy & Yellowed",
-      afterTitle: "Professional Grade",
-      beforeDesc: "Years of UV damage and oxidation",
-      afterDesc: "Factory-level clarity and shine restored"
-    },
-    {
-      before: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://images.unsplash.com/photo-1581092921461-eab62e97a780?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      beforeTitle: "Reduced Light Output",
-      afterTitle: "Diamond Clarity",
-      beforeDesc: "Dangerous visibility reduction",
-      afterDesc: "Maximum light output and safety"
+      beforeTitle: "Severely Oxidized",
+      afterTitle: "Crystal Clear",
+      beforeDesc: "Years of UV damage and oxidation causing dangerous visibility reduction",
+      afterDesc: "Professional restoration to factory-level clarity and brightness"
     }
   ];
 
