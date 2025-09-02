@@ -15,8 +15,8 @@ export default function HomePage() {
       afterDesc: "Restored to like-new clarity and brightness"
     },
     {
-      before: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
+      before: "/attached_assets/20250902_181357_0000_1756851362110.png",
+      after: "/attached_assets/20250902_181419_0000_1756851362133.png",
       beforeTitle: "Cloudy & Yellowed",
       afterTitle: "Professional Grade",
       beforeDesc: "Years of UV damage and oxidation",
