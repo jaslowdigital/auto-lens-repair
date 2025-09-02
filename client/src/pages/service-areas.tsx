@@ -286,8 +286,8 @@ export default function ServiceAreasPage() {
             
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
-                alt="Service area coverage map representation" 
+                src="/attached_assets/20250902_181419_0000_1756851362133.png" 
+                alt="Professional headlight restoration results - restored Hyundai Santa Fe headlights showing crystal clear visibility" 
                 className="rounded-xl shadow-lg w-full h-auto"
               />
             </div>
