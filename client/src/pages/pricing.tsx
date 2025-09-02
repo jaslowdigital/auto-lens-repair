@@ -216,7 +216,7 @@ export default function PricingPage() {
             Don't let pricing uncertainty keep you from restoring your headlights. 
             Call now for a free, no-obligation quote tailored to your vehicle.
           </p>
-          <Button asChild className="bg-auto-amber text-auto-blue px-12 py-4 text-xl font-bold hover:bg-yellow-400">
+          <Button asChild className="bg-auto-amber text-white px-12 py-4 text-xl font-bold hover:bg-yellow-400">
             <a href="tel:445-200-7542">
               <Phone className="mr-3 h-6 w-6" />
               Call (445) 200-7542 Now

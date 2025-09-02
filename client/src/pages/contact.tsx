@@ -36,7 +36,7 @@ export default function ContactPage() {
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-auto-blue mb-6 sm:mb-8">Get Your Free Estimate</h2>
               <div className="space-y-8">
                 <div className="flex items-center">
-                  <div className="bg-auto-amber text-auto-blue w-16 h-16 rounded-full flex items-center justify-center mr-6">
+                  <div className="bg-auto-amber text-white w-16 h-16 rounded-full flex items-center justify-center mr-6">
                     <Phone className="h-8 w-8" />
                   </div>
                   <div>
@@ -49,7 +49,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-auto-amber text-auto-blue w-16 h-16 rounded-full flex items-center justify-center mr-6">
+                  <div className="bg-auto-amber text-white w-16 h-16 rounded-full flex items-center justify-center mr-6">
                     <Clock className="h-8 w-8" />
                   </div>
                   <div>
@@ -63,7 +63,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="bg-auto-amber text-auto-blue w-16 h-16 rounded-full flex items-center justify-center mr-6">
+                  <div className="bg-auto-amber text-white w-16 h-16 rounded-full flex items-center justify-center mr-6">
                     <Shield className="h-8 w-8" />
                   </div>
                   <div>
