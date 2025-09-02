@@ -159,7 +159,7 @@ export default function GalleryPage() {
             Don't let foggy, yellowed headlights compromise your vehicle's appearance and safety. 
             Call now for a free estimate on professional headlight restoration.
           </p>
-          <Button asChild className="bg-auto-amber text-auto-blue px-12 py-4 text-xl font-bold hover:bg-yellow-400">
+          <Button asChild className="bg-auto-amber text-white px-12 py-4 text-xl font-bold hover:bg-yellow-400 hover:text-white">
             <a href="tel:445-200-7542">
               <Phone className="mr-3 h-6 w-6" />
               Call (445) 200-7542 Now
