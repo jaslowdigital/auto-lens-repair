@@ -6,8 +6,8 @@ import { Phone } from 'lucide-react';
 export default function GalleryPage() {
   const beforeAfterImages = [
     {
-      before: "https://images.unsplash.com/photo-1609039155303-bf47c4f88a5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400",
-      after: "https://pixabay.com/get/gf426e2a7d00e631c854e7c567730b77c786074c573131ffff662ba06e54026ebd830fafe4f674b612c8bba7d02416a15ce925b5ea965e07190ebef00054d414a_1280.jpg",
+      before: "/attached_assets/IMG_20250822_214628_1756851036410.heic",
+      after: "/attached_assets/IMG_20250822_214634_1756851036423.heic",
       beforeTitle: "Severely Oxidized",
       afterTitle: "Crystal Clear",
       beforeDesc: "Yellow, cloudy headlights reducing visibility and appearance",
