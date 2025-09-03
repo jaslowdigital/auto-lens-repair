@@ -54,11 +54,11 @@ export function SEOHead({ title, description, canonical, keywords, ogImage, twit
       linkIcon.setAttribute('type', 'image/png');
       document.head.appendChild(linkIcon);
     }
-    linkIcon.setAttribute('href', '/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png');
+    linkIcon.setAttribute('href', '/attached_assets/auto-lens-repair-og-image.png');
 
     // OpenGraph meta tags - Use absolute URL for social platforms
     const baseUrl = window.location.origin;
-    const ogImageUrl = ogImage || `${baseUrl}/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png`;
+    const ogImageUrl = ogImage || `${baseUrl}/attached_assets/auto-lens-repair-og-image.png`;
     const currentDate = new Date().toISOString();
     
     // OpenGraph Locale

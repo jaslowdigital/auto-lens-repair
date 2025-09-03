@@ -32,7 +32,7 @@ export function BensalemPage() {
         description="Professional headlight restoration services in Bensalem Township, Pennsylvania. Mobile service to residential neighborhoods and business areas. 1-year warranty. Call 445-200-7542"
         keywords="headlight restoration Bensalem PA, auto headlight cleaning Bensalem Township, mobile headlight repair Bucks County, Feasterville car services"
         canonical="https://workspace--njaslow.replit.app/bensalem"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/auto-lens-repair-og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 

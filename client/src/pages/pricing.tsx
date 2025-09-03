@@ -11,7 +11,7 @@ export default function PricingPage() {
         description="Custom headlight restoration pricing for every vehicle. Call 445-200-7542 for transparent, upfront pricing. 1-year warranty included on all services."
         keywords="headlight restoration pricing, call for quote, Montgomery County auto service, transparent pricing"
         canonical="https://workspace--njaslow.replit.app/pricing"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/auto-lens-repair-og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 

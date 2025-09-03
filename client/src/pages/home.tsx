@@ -23,7 +23,7 @@ export default function HomePage() {
         description="Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. Transform foggy, yellow headlights to crystal clear. Mobile service available. Call 445-200-7542"
         keywords="headlight restoration, Montgomery County, Bucks County, Philadelphia, auto headlight cleaning, mobile service"
         canonical="https://workspace--njaslow.replit.app/"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Untitled design_20250902_185324_0000_1756853701816.png"
+        ogImage="https://workspace--njaslow.replit.app/attached_assets/auto-lens-repair-og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 
