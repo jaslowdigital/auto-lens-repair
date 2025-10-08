@@ -10,7 +10,7 @@ export default function UpperDarby() {
         description="Expert headlight restoration services in Upper Darby Township. Mobile and drop-off options available. Serving all of Upper Darby and surrounding areas. Call (445) 200-7542."
         canonical="https://workspace--njaslow.replit.app/upper-darby"
         keywords="headlight restoration Upper Darby, headlight cleaning Upper Darby PA, foggy headlight repair Upper Darby Township, headlight polishing Delaware County"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
       

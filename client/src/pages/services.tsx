@@ -11,7 +11,7 @@ export default function ServicesPage() {
         description="Mobile and drop-off headlight restoration services. Professional grade materials, 1-year warranty. Serving Montgomery County, Bucks County, Philadelphia PA."
         keywords="mobile headlight restoration, drop-off service, corporate fleet services, automotive headlight cleaning"
         canonical="https://workspace--njaslow.replit.app/services"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/auto-lens-repair-og-image.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 

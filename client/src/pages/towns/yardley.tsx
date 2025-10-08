@@ -10,7 +10,7 @@ export default function Yardley() {
         description="Expert headlight restoration services in Yardley Borough, Bucks County. Mobile and drop-off options available. Serving historic Yardley and surrounding areas. Call (445) 200-7542."
         canonical="https://workspace--njaslow.replit.app/yardley"
         keywords="headlight restoration Yardley, headlight cleaning Yardley PA, foggy headlight repair Yardley Borough, headlight polishing Bucks County"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
       

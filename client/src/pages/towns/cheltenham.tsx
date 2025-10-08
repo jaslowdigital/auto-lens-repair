@@ -10,7 +10,7 @@ export default function Cheltenham() {
         description="Expert headlight restoration services in Cheltenham Township, Montgomery County. Mobile and drop-off options available. Serving Cheltenham, Elkins Park, and surrounding areas. Call (445) 200-7542."
         canonical="https://workspace--njaslow.replit.app/cheltenham"
         keywords="headlight restoration Cheltenham, headlight cleaning Cheltenham PA, foggy headlight repair Cheltenham Township, headlight polishing Elkins Park"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
       

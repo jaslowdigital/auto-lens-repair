@@ -10,7 +10,7 @@ export default function Philadelphia() {
         description="Expert headlight restoration services in Philadelphia. Mobile and drop-off options available. Serving Center City, South Philly, Northern Liberties, and all neighborhoods. Call (445) 200-7542."
         canonical="https://workspace--njaslow.replit.app/philadelphia"
         keywords="headlight restoration Philadelphia, headlight cleaning Philadelphia PA, foggy headlight repair Philadelphia, headlight polishing Center City, car headlight restoration South Philadelphia"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
       

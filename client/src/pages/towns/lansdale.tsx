@@ -10,7 +10,7 @@ export default function Lansdale() {
         description="Expert headlight restoration services in Lansdale Borough, Montgomery County. Mobile and drop-off options available. Serving downtown Lansdale and surrounding areas. Call (445) 200-7542."
         canonical="https://workspace--njaslow.replit.app/lansdale"
         keywords="headlight restoration Lansdale, headlight cleaning Lansdale PA, foggy headlight repair Lansdale Borough, headlight polishing Montgomery County"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
       

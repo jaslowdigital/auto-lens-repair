@@ -11,7 +11,7 @@ export default function CorporatePage() {
         description="Professional headlight restoration for car dealerships, fleet managers, and automotive businesses. Volume discounts available. Call 445-200-7542"
         keywords="fleet headlight restoration, dealership services, corporate auto service, volume discounts, car lot services"
         canonical="https://workspace--njaslow.replit.app/corporate"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 

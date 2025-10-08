@@ -7,8 +7,8 @@ import { Link } from 'wouter';
 export default function HomePage() {
   const beforeAfterImages = [
     {
-      before: "/attached_assets/20250902_181357_0000_1756851362110.png",
-      after: "/attached_assets/20250902_181419_0000_1756851362133.png",
+      before: "/before-oxidized.png",
+      after: "/after-restored.png",
       beforeTitle: "Severely Oxidized",
       afterTitle: "Crystal Clear",
       beforeDesc: "Years of UV damage and oxidation causing dangerous visibility reduction",
@@ -23,7 +23,7 @@ export default function HomePage() {
         description="Professional headlight restoration services in Montgomery County, Bucks County, and Philadelphia PA. Transform foggy, yellow headlights to crystal clear. Mobile service available. Call 445-200-7542"
         keywords="headlight restoration, Montgomery County, Bucks County, Philadelphia, auto headlight cleaning, mobile service"
         canonical="https://workspace--njaslow.replit.app/"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/auto-lens-repair-og-image.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 
@@ -67,7 +67,7 @@ export default function HomePage() {
             </div>
             <div className="relative w-full mt-8 lg:mt-0">
               <img 
-                src="https://pixabay.com/get/g69008b70156dbb078a51c276038f61d0322a422cf8856ed6c6ce77db0f370b7cc780c51e9dad95e366691527a9d67b47f63f07353e7726a707bb43f4defde696_1280.jpg" 
+                src="/technician-hero.jpg" 
                 alt="Professional automotive technician restoring headlights" 
                 className="rounded-xl shadow-2xl w-full h-auto max-w-full"
               />

@@ -33,7 +33,7 @@ export function MontgomeryCountyPage() {
         description="Professional headlight restoration services throughout Montgomery County PA including Norristown, Pottstown, Lansdale, King of Prussia, Conshohocken, and all townships. Mobile service available. Call 445-200-7542"
         keywords="headlight restoration Montgomery County, Norristown headlight repair, Pottstown auto service, Lansdale car detailing, King of Prussia headlight cleaning"
         canonical="https://workspace--njaslow.replit.app/montgomery-county"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/auto-lens-repair-og-image.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 

@@ -11,7 +11,7 @@ export default function HarleysvillePage() {
         description="Professional headlight restoration services in Harleysville, PA. Serving Montgomery County with mobile and drop-off headlight cleaning. Call 445-200-7542 for free quotes."
         keywords="headlight restoration Harleysville PA, Harleysville auto headlight cleaning, Montgomery County headlight repair, mobile headlight service"
         canonical="https://workspace--njaslow.replit.app/harleysville"
-        ogImage="https://workspace--njaslow.replit.app/attached_assets/Auto Lens Repair _20250821_221211_0000_1755828746506.png"
+        ogImage="https://workspace--njaslow.replit.app/og-image.png"
         twitterHandle="@AutoLensRepair"
       />
 

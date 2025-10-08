@@ -4,9 +4,9 @@ This is a professional headlight restoration business website called Auto Lens R
 
 The site features comprehensive service information including before/after galleries, corporate fleet services, detailed service area coverage, and multiple contact methods. It's optimized for local SEO with location-specific content and professional service descriptions.
 
-**Status**: Completed professional website with all requested features implemented and fully functional. Recently expanded with comprehensive county and town pages for enhanced local SEO coverage. OpenGraph social sharing images fixed for proper URL encoding on social media platforms.
+**Status**: Completed professional website with all requested features implemented and fully functional. Recently expanded with comprehensive county and town pages for enhanced local SEO coverage. All images migrated to public directory for proper accessibility in production deployment.
 
-## Recent Implementation (August 2025)
+## Recent Implementation (October 2025)
 - Complete professional automotive website with corporate blue/amber branding
 - Homepage with hero section, service overview, and dramatic before/after gallery
 - Services page detailing mobile, drop-off, and corporate service options
@@ -17,10 +17,11 @@ The site features comprehensive service information including before/after galle
 - Contact page with prominent phone number (445) 200-7542 and service options
 - Full mobile responsiveness and SEO optimization with structured data
 - All CTAs direct to phone number for quotes as requested
-- **NEW**: Comprehensive county pages for Montgomery County, Bucks County, and Philadelphia
-- **NEW**: Individual town pages for major municipalities including Norristown, King of Prussia, Doylestown, Center City, Bensalem, Pottstown, New Hope, Quakertown, and Harleysville
-- **NEW**: Service areas page updated with direct links to all county and town pages
-- **NEW**: All button text colors updated to use proper contrast - white text on amber backgrounds for optimal readability
+- Comprehensive county pages for Montgomery County, Bucks County, and Philadelphia
+- Individual town pages for major municipalities including Norristown, King of Prussia, Doylestown, Center City, Bensalem, Pottstown, New Hope, Quakertown, and Harleysville
+- Service areas page updated with direct links to all county and town pages
+- All button text colors updated to use proper contrast - white text on amber backgrounds for optimal readability
+- **LATEST (Oct 2025)**: Fixed all image loading issues by migrating assets from /attached_assets/ to client/public/ directory for proper production accessibility
 
 # User Preferences
 
@@ -55,7 +56,12 @@ Preferred communication style: Simple, everyday language.
 - **TypeScript**: Strict TypeScript configuration with path aliases for clean imports (@/, @shared/)
 - **Development**: Single command (`npm run dev`) starts both frontend and backend with hot reloading
 - **Production Build**: Frontend builds to `/dist/public`, backend bundles with esbuild to `/dist`
-- **Asset Management**: Support for attached assets through Vite alias configuration
+- **Asset Management**: All static assets stored in `client/public/` directory for production accessibility. Images include:
+  - `/logo.png` - Company logo (675KB)
+  - `/technician-hero.jpg` - Homepage hero image (365KB)
+  - `/before-oxidized.png` - Before restoration image (3.0MB)
+  - `/after-restored.png` - After restoration image (3.2MB)
+  - `/og-image.png` - OpenGraph social sharing image (758KB)
 
 ## SEO and Performance
 - **SEO Components**: Custom SEOHead component for dynamic meta tags, descriptions, and canonical URLs
