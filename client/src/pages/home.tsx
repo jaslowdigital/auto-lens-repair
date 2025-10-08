@@ -157,7 +157,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 justify-center">
+          <div className="flex flex-wrap justify-center gap-8 mb-12">
             {beforeAfterImages.map((item, index) => (
               <div key={index} className="grid gap-4">
                 <Card className="bg-white shadow-lg overflow-hidden">
