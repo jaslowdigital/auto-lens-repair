@@ -4,19 +4,18 @@ import SEOHead from '@/components/seo/seo-head';
 import { Link } from 'wouter';
 
 export function MontgomeryCountyPage() {
-  const majorTowns = [
-    { name: 'Norristown', population: '34,324', description: 'County seat and largest city', link: '/norristown' },
-    { name: 'Pottstown', population: '22,711', description: 'Historic borough founded in 1752', link: '/pottstown' },
-    { name: 'King of Prussia', population: '22,028', description: 'Major commercial and shopping center', link: '/king-of-prussia' },
-    { name: 'Lansdale', population: '18,773', description: 'Safe, family-friendly community', link: '/lansdale' },
-    { name: 'Abington', population: '55,310', description: 'Large suburban township', link: '/abington' },
-    { name: 'Plymouth Meeting', population: '6,177', description: 'Major business and shopping hub', link: '/plymouth-meeting' },
-    { name: 'Cheltenham', population: '36,793', description: 'Diverse community near Philadelphia', link: '/cheltenham' },
-    { name: 'Willow Grove', population: '15,726', description: 'Shopping destination with mall', link: '/willow-grove' },
-    { name: 'Harleysville', population: '9,286', description: 'Historic Pennsylvania German community', link: '/harleysville' },
-    { name: 'Conshohocken', population: '8,039', description: 'Business hub along the Schuylkill River', link: null },
-    { name: 'Ardmore', population: '13,307', description: 'Main Street of the Main Line', link: null },
-    { name: 'Ambler', population: '6,417', description: 'Charming suburban borough', link: null }
+  const allTowns = [
+    'Abington', 'Ambler', 'Ardmore', 'Audubon', 'Bala Cynwyd', 'Blue Bell', 'Bridgeport', 'Bryn Athyn',
+    'Cedars', 'Cheltenham', 'Collegeville', 'Colmar', 'Conshohocken', 'Creamery', 'Dresher', 'Eagleville',
+    'East Greenville', 'Elkins Park', 'Fairview Village', 'Flourtown', 'Fort Washington', 'Franconia',
+    'Frederick', 'Gilbertsville', 'Gladwyne', 'Glenside', 'Green Lane', 'Gwynedd', 'Gwynedd Valley',
+    'Harleysville', 'Hatboro', 'Hatfield', 'Haverford', 'Horsham', 'Huntingdon Valley', 'Jenkintown',
+    'King of Prussia', 'Kulpsville', 'Lafayette Hill', 'Lansdale', 'Lederach', 'Mainland', 'Merion Station',
+    'Mont Clare', 'Montgomeryville', 'Narberth', 'Norristown', 'North Wales', 'Oaks', 'Oreland',
+    'Palm', 'Pennsburg', 'Perkiomenville', 'Plymouth Meeting', 'Pottstown', 'Red Hill', 'Royersford',
+    'Salford', 'Salfordville', 'Sassamansville', 'Schwenksville', 'Skippack', 'Souderton', 'Spring House',
+    'Spring Mount', 'Sumneytown', 'Telford', 'Tylersport', 'West Point', 'Willow Grove', 'Worcester',
+    'Woxall', 'Wyncote', 'Wynnewood', 'Zieglerville'
   ];
 
   const townships = [
@@ -87,51 +86,32 @@ export function MontgomeryCountyPage() {
         </div>
       </section>
 
-      {/* Major Towns Grid */}
+      {/* All Towns Directory */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-auto-blue mb-4">Major Cities & Towns We Serve</h2>
-            <p className="text-lg text-auto-gray">Professional headlight restoration in Montgomery County's largest communities</p>
+            <h2 className="text-3xl font-bold text-auto-blue mb-4">All Montgomery County Towns We Serve</h2>
+            <p className="text-lg text-auto-gray">Click any town name for local headlight restoration services and information</p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {majorTowns.map((town) => (
-              <div key={town.name} className="bg-white rounded-lg shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
-                {town.link ? (
-                  <Link href={town.link}>
-                    <div className="cursor-pointer">
-                      <div className="flex items-start justify-between mb-3">
-                        <h3 className="text-xl font-bold text-auto-blue hover:text-blue-700">{town.name}</h3>
-                        <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
-                      </div>
-                      <p className="text-auto-gray mb-2">Population: {town.population}</p>
-                      <p className="text-sm text-auto-gray mb-4">{town.description}</p>
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center text-sm text-green-600">
-                          <CheckCircle className="h-4 w-4 mr-2" />
-                          Mobile Service Available
-                        </div>
-                        <span className="text-sm text-auto-blue font-medium">Learn More →</span>
-                      </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3">
+            {allTowns.map((town) => {
+              const slug = town.toLowerCase().replace(/\s+/g, '-');
+              return (
+                <Link key={town} href={`/${slug}-auto-lens-repair`}>
+                  <div className="bg-white rounded-lg shadow-sm p-4 border border-gray-100 hover:shadow-md hover:border-auto-amber transition-all cursor-pointer text-center group">
+                    <div className="flex items-center justify-center mb-2">
+                      <MapPin className="text-auto-amber h-4 w-4 mr-2" />
+                      <h3 className="text-sm font-semibold text-auto-blue group-hover:text-blue-700">{town}</h3>
                     </div>
-                  </Link>
-                ) : (
-                  <div>
-                    <div className="flex items-start justify-between mb-3">
-                      <h3 className="text-xl font-bold text-auto-blue">{town.name}</h3>
-                      <MapPin className="text-auto-amber h-5 w-5 flex-shrink-0" />
-                    </div>
-                    <p className="text-auto-gray mb-2">Population: {town.population}</p>
-                    <p className="text-sm text-auto-gray mb-4">{town.description}</p>
-                    <div className="flex items-center text-sm text-green-600">
-                      <CheckCircle className="h-4 w-4 mr-2" />
-                      Mobile Service Available
-                    </div>
+                    <p className="text-xs text-green-600">
+                      <CheckCircle className="h-3 w-3 inline mr-1" />
+                      Service Available
+                    </p>
                   </div>
-                )}
-              </div>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
