@@ -1,4 +1,5 @@
 import { Car, Phone, Clock, MapPin, Shield } from 'lucide-react';
+import { Link } from 'wouter';
 
 export function Footer() {
   return (
@@ -32,7 +33,11 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">Service Areas</h4>
             <ul className="space-y-2 text-gray-300">
-              <li>Montgomery County PA</li>
+              <li>
+                <Link href="/montgomery-county">
+                  <a className="hover:text-auto-amber transition-colors">Montgomery County PA</a>
+                </Link>
+              </li>
               <li>Bucks County PA</li>
               <li>Philadelphia PA</li>
               <li>Surrounding Areas</li>
